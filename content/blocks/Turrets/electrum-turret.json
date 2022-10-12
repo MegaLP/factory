@@ -1,0 +1,28 @@
+{
+	"type": "ItemTurret",
+	"name": "Electrum Turret",
+	"targetAir": true,
+	"targetGround": true,
+	"description": "The Electrum Turret.",
+	"health": 2000,
+	"size": 2,
+	"range": 450,
+	"shoot": {
+		"shots": 5,
+	}
+	"inaccuracy": 0,
+	"ammoTypes": {
+		"electrum": {
+			"speed": 15.0,
+			"damage": 500,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 10,
+		}
+	},
+	"requirements": [
+		{ "item": "electrum", "amount": 135 }
+	],
+	"category": "turret",
+	"research": "dark-matter-turret"
+}

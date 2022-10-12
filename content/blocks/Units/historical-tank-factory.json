@@ -1,0 +1,50 @@
+{
+	"type": "UnitAssembler",
+	"size": 16,
+	"dronesCreated": 8,
+	"droneConstructTime": 500,
+	"areaSize": 40,
+	"health": 200,
+	"hasShadow": false,
+	"drawCracks": false,
+	"consumes": {
+		"power": 7.5,
+	},
+	"plans": [
+	{
+		"unit": "tiger",
+		"type": "AssemblerUnitPlan",
+		"requirements": [
+			factory-dark-matter-wall-large/14
+			surge-wall-large/14
+			factory-shotgun/1
+			factory-sniper-turret/5
+			factory-energy-blaster/4
+		],
+		"time": 5000
+	},
+	{
+		"unit": "ratte",
+		"type": "AssemblerUnitPlan",
+		"requirements": [
+			factory-galaxy-wall-large/20
+			tungsten-wall-large/400
+			factory-electrum-fusion-reactor/1
+			factory-red-matter-batterie/8
+			factory-dark-matter-aa/8
+			factory-darkshade-sniper/4
+			factory-energy-blaster/16
+		],
+		"time": 100000
+	}
+	],
+	"requirements": [
+		{ "item": "copper", "amount": 250 },
+		{ "item": "tungsten", "amount": 300 },
+		{ "item": "graphite", "amount": 500 },
+		{ "item": "silicon", "amount": 5000 },
+		{ "item": "lead", "amount": 150 }
+	],
+	"category": "units",
+	"research": "advanced-unit-factory",
+}

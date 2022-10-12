@@ -1,0 +1,30 @@
+{
+	"name": "Galaxy OverdriveProjector",
+	"description": "The Galaxy OverdriveProjector.",
+	"type": "OverdriveProjector",
+	"health": 1200,
+	"hasLiquids": true,
+	"size": 4,
+	"speedBoost": 10.0,
+	"range": 250,
+	"consumes":{
+		"power": 10.5,
+		"items": {
+			"items": [
+				{ "item": "galaxy", "amount": 1}
+			]
+		"booster": false,
+		"optional": false
+		},
+		"liquid": {
+			"liquid": "molten-red-matter", "amount":0.4, 
+			"booster": true,
+			"optional": false
+		}
+	},
+	"requirements": [
+		{ "item": "galaxy", "amount": 100 }
+	],
+	"category": "effect",
+	"research": "red-matter-overdriveprojector"
+}

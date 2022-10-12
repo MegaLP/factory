@@ -1,0 +1,13 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "Red Matter conveyor",
+	"description": "it is like dark matter conveyor.",
+	"requirements": [
+		{"item": "red-matter", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.15,
+	"displayedSpeed": 20.5,
+	"health": 400,
+	"research": "dark-matter-conveyor"
+}

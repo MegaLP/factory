@@ -1,0 +1,16 @@
+{
+	"name": "Tent",
+	"description": "Increases Unit Capacity by 4",
+	"type": "Wall",
+	"health": 100,
+	"size": 3,
+	"unitCapModifier": 4,
+	"hasShadow": false,
+	"requirements": [
+		{ "item": "copper", "amount": 12 },
+		{ "item": "graphite", "amount": 5 },
+		{ "item": "lead", "amount": 8 }
+	],
+	"category": "effect",
+	"research": "M2"
+}

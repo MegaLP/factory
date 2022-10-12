@@ -1,0 +1,13 @@
+{
+	"type": "Wall",
+	"name": "Dark Matter Wall",
+	"description": "The dark matter wall in large.",
+	"health": 2400,
+	"size": 2,
+	"buildCostMultiplier": 4,
+	"requirements": [
+		{ "item": "dark-matter", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "dark-matter-wall"
+}

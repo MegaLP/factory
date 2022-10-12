@@ -1,0 +1,18 @@
+{
+	"type": "Wall",
+	"name": "Galaxy Wall Large",
+	"description": "The Galaxy wall in large. Almost able to stop a 280 mm gun.",
+	"health": 220000,
+	"size": 2,
+	"lightningChance": 0.5,
+	"lightningDamage": 100,
+	"lightningLength": 50,
+	"chanceDeflect": 20,
+	"flashHit": true,
+	"buildCostMultiplier": 20,
+	"requirements": [
+		{ "item": "galaxy", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "electrum-wall-large"
+}

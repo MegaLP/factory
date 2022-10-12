@@ -1,0 +1,13 @@
+{
+	"type": "Unloader",
+	"name": "Electrum Unloader",
+	"description": "FAST Unloader.",
+	"requirements": [
+		{"item": "electrum", "amount": 5}
+	],
+	"category": "effect",
+	"speed": -1.00,
+	"health": 1800,
+	"group": "transportation",
+	"research": "electrum-vault"
+}

@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Exchange Forge",
+	"description": "Exchange titanium and silicon to thorium.",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "thorium", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 5 },
+				{ "item": "silicon", "amount": 5 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "silicon", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "exchange-forge-titan",
+}

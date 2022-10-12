@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Dark Matter Forge",
+	"description": "Produces dark matter.",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "dark-matter", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 4.5,
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 3 },
+				{ "item": "lead", "amount": 2 },
+				{ "item": "copper", "amount": 4 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "lead", "amount": 150 },
+		{ "item": "copper", "amount": 200 }
+	],
+	"category": "crafting",
+	"research": "core-kento",
+}

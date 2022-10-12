@@ -1,0 +1,12 @@
+{
+	"name": "Electum Wall",
+	"description": "The strongest wall.",
+	"health": 16000,
+	"size": 2,
+	"buildCostMultiplier": 12,
+	"requirements": [
+		{ "item": "electrum", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "electrum-wall"
+}

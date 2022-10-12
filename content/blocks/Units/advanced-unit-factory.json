@@ -1,0 +1,42 @@
+{
+	"size": 3,
+	"consumes": {
+		"power": 0.5,
+	},
+	"plans": [
+	{
+		"unit": "copper-golem",
+		"requirements": [
+			{ "item": "copper", "amount": 8 },
+			{ "item": "lead", "amount": 3 }
+		],
+		"time": 200
+	},
+	{
+		"unit": "fire-mech",
+		"requirements": [
+			{ "item": "lead", "amount": 14 },
+			{ "item": "graphite", "amount": 12 }
+		],
+		"time": 500
+	},
+	{
+		"unit": "garet-mech",
+		"requirements": [
+			{ "item": "copper", "amount": 20 },
+			{ "item": "lead", "amount": 16 },
+			{ "item": "graphite", "amount": 12 },
+			{ "item": "dark-matter", "amount": 10 }
+		],
+		"time": 1000
+	},
+	
+	],
+	"requirements": [
+		{ "item": "copper", "amount": 250 },
+		{ "item": "graphite", "amount": 20 },
+		{ "item": "lead", "amount": 150 }
+	],
+	"category": "units",
+	"research": "core-kento",
+}

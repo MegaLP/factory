@@ -1,0 +1,33 @@
+{
+	"type": "ImpactReactor",
+	"name": "Electrum Fusion Reactor",
+	"description": "ultimative Generator",
+	"size": 4,
+	"health": 1300,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"itemDuration": 100,
+	"warmupSpeed": 0.0005,
+	"baseExplosiveness": 1000,
+	"explosionRadius": 1000,
+	"explosionDamage": 100000,
+	"powerProduction": 1500,
+	"consumes": {
+		"power": 100.0,
+		"liquid":{"liquid": "stabilized-liquid", "amount":1.3, }
+		"items": {
+			"items": [
+				{ "item": "thorium", "amount": 5 },
+				{ "item": "red-matter", "amount": 2 }
+			],
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 100 },
+		{ "item": "silicon", "amount": 500 },
+		{ "item": "electrum", "amount": 300 }
+	],
+	"category": "power",
+	"research": "red-matter-batterie"
+}

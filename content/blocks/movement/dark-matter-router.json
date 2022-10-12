@@ -1,0 +1,12 @@
+{
+	"type": "Router",
+	"name": "Dark Matter Router",
+	"description": "FASTER and TANKIER Router.",
+	"requirements": [
+		{"item": "dark-matter", "amount": 2}
+	],
+	"category": "distribution",
+	"speed": 500,
+	"health": 120,
+	"research": "dark-matter-conveyor"
+}

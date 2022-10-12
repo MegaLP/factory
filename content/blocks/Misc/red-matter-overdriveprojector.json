@@ -1,0 +1,27 @@
+{
+	"name": "Red Matter OverdriveProjector",
+	"description": "The red matter OverdriveProjector.",
+	"type": "OverdriveProjector",
+	"health": 400,
+	"hasLiquids": true,
+	"size": 2,
+	"speedBoost": 2.0,
+	"speedBoostPhase": 1.0,
+	"range": 150,
+	"phaseRangeBoost": 50,
+	"consumes":{
+		"power": 10.5,
+		"items": {
+			"items": [
+				{ "item": "dark-matter", "amount": 1}
+			]
+		"booster": true,
+		"optional": true
+		},
+	},
+	"requirements": [
+		{ "item": "red-matter", "amount": 10 }
+	],
+	"category": "effect",
+	"research": "red-matter-power-node"
+}

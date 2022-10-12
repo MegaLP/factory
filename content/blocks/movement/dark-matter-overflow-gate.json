@@ -1,0 +1,12 @@
+{
+	"type": "OverflowGate",
+	"name": "Dark Matter Overflow",
+	"description": "Better Overflow.",
+	"requirements": [
+		{"item": "dark-matter", "amount": 3}
+	],
+	"category": "distribution",
+	"speed": 500,
+	"health": 140,
+	"research": "dark-matter-conveyor"
+}

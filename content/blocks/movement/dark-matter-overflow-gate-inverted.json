@@ -1,0 +1,13 @@
+{
+	"type": "OverflowGate",
+	"name": "Dark Matter Overflow Inverted",
+	"description": "Better Overflow but Inverted.",
+	"requirements": [
+		{"item": "dark-matter", "amount": 3}
+	],
+	"category": "distribution",
+	"speed": 500,
+	"invert": true,
+	"health": 140,
+	"research": "dark-matter-conveyor"
+}

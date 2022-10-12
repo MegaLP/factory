@@ -1,0 +1,14 @@
+{
+	"name": "Red Matter Power Node",
+	"description": "The red matter Power Node.",
+	"type": "PowerNode",
+	"size": 1,
+	"health": 500,
+	"maxNodes": 50,
+	"laserRange": 20,
+	"requirements": [
+		{ "item": "red-matter", "amount": 5 }
+	],
+	"category": "power",
+	"research": "core-kento"
+}

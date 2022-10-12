@@ -1,0 +1,25 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "Electrum Generator",
+	"description": "ultimative Generator",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 3000,
+	"powerProduction": 150.0,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "electrum", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "electrum", "amount": 50 }
+	],
+	"category": "power",
+	"research": "red-matter-batterie"
+}

@@ -1,0 +1,27 @@
+{
+	"type": "GenericCrafter",
+	"name": "Galaxy infuser",
+	"description": "Produces Infused Galaxy Dust.",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "infused-galaxy-dust", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 150,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 145.0,
+		"items": {
+			"items": [
+				{ "item": "galaxy-dust", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "darkshadow", "amount": 150 }
+	],
+	"category": "crafting",
+	"research": "particle-accelerator",
+}

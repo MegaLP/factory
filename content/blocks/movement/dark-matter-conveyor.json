@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "Dark Matter conveyor",
+	"description": "It uses dark energy.",
+	"requirements": [
+		{"item": "dark-matter", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.15,
+	"displayedSpeed": 20.5,
+	"health": 120,
+	"research": "core-kento"
+}

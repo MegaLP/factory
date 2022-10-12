@@ -1,0 +1,17 @@
+{
+	"type": "Wall",
+	"name": "Darkshade Wall Large",
+	"description": "The darkshade wall in large.",
+	"type": "Wall",
+	"health": 20000,
+	"size": 2,
+	"lightningChance": 0.5,
+	"lightningDamage": 50,
+	"lightningLength": 20,
+	"buildCostMultiplier": 16,
+	"requirements": [
+		{ "item": "darkshadow", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "electrum-wall-large"
+}

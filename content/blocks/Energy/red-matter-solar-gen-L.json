@@ -1,0 +1,14 @@
+{
+	"type": "SolarGenerator",
+	"name": "Red Matter Solar Panel Large",
+	"description": "It gives Power",
+	"size": 3,
+	"powerProduction": 12.0,
+	"requirements": [
+		{ "item": "red-matter", "amount": 720 },
+		{ "item": "silicon", "amount": 480 },
+		{ "item": "copper", "amount": 120 }
+	],
+	"category": "power",
+	"research": "red-matter-solar-gen-m"
+}

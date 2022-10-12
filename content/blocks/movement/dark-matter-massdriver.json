@@ -1,0 +1,22 @@
+{
+	"name": "Dark Matter Mass Driver",
+	"description": "Transports items Further.",
+	"size": 3,
+	"itemCapacity": 100,
+	"bulletSpeed": 7,
+	"minDistribute": 5,
+	"hasPower": true,
+	"hasItems": true,
+	"reload": 200,
+	"range": 600,
+	"consumes": {
+		"power": 1.5,
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "lead", "amount": 150 },
+		{ "item": "dark-matter", "amount": 200 }
+	],
+	"category": "distribution",
+	"research": "core-kento",
+}

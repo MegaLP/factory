@@ -1,0 +1,13 @@
+{
+	"type": "Wall",
+	"name": "Electum Wall",
+	"description": "The strongest wall.",
+	"health": 3500,
+	"size": 1,
+	"buildCostMultiplier": 12,
+	"requirements": [
+		{ "item": "electrum", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "dark-matter-wall-large"
+}

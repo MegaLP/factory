@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Stabilized Smelter",
+	"description": "Produces Stabilized Liquid.",
+	"liquidCapacity": 100,
+	"outputLiquid": {
+		"liquid": "stabilized-liquid",
+		"amount": 5.5
+	},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.5,
+		"liquid":{"liquid": "cryofluid", "amount": 3.5, }
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 75 }
+	],
+	"category": "crafting",
+	"research": "dark-matter-forge",
+}

@@ -1,0 +1,14 @@
+{
+	"name": "Electrum Vault",
+	"description": "Large Storage",
+	"type": "StorageBlock",
+	"itemCapacity": 24000,
+	"hasItems": true,
+	"health": 5000,
+	"size": 3,
+	"requirements": [
+		{ "item": "electrum", "amount": 30 }
+	],
+	"category": "effect"
+	"research": "core-kento"
+}

@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Silicone Duper",
+	"description": "Produces Silicone.",
+	"liquidCapacity": 0,
+	"itemCapacity": 50,
+	"outputItem": {"item": "silicon", "amount": 5},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 40,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.5,
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 750 },
+		{ "item": "galaxy", "amount": 150 },
+	],
+	"category": "crafting",
+	"research": "galaxy-seperator",
+}

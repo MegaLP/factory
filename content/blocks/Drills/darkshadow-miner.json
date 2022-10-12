@@ -1,0 +1,24 @@
+{
+	"name": "Darkshadow Miner",
+	"description": "it can mine darkshadow.",
+	"type": "Drill",
+	"size": 2,
+	"health": 100,
+	"tier": 10,
+	"drillTime": 500,
+	"liquidCapacity":50,
+	"consumes": {
+		"power": 5.7,
+		"liquid": {
+			"liquid": "stabilized-liquid", 
+			"amount": 0.5,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "electrum", "amount": 80 }
+	],
+	"category": "production",
+	"research": "electrum-drill"
+}

@@ -1,0 +1,23 @@
+{
+	"name": "Electrum Constructor",
+	"description": "Large Fast Constructor",
+	"type": "Constructor",
+	"hasPower": true,
+	"buildSpeed": 60,
+	"minBlockSize": 1,
+	"maxBlockSize": 5,
+	"health": 2000,
+	"size": 5,
+	"consumes": {
+		"power": 17.5,
+	},
+	"requirements": [
+		{ "item": "electrum", "amount": 30 },
+		{ "item": "copper", "amount": 460 },
+		{ "item": "lead", "amount": 350 },
+		{ "item": "silicon", "amount": 500 },
+		{ "item": "surge-alloy", "amount": 200 }
+	],
+	"category": "units"
+	"research": "historical-tank-factory"
+}

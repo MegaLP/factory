@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Red Matter Forge",
+	"description": "Produces red matter.",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "red-matter", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 80,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.5,
+		"items": {
+			"items": [
+				{ "item": "dark-matter", "amount": 4 },
+				{ "item": "plastanium", "amount": 3 },
+				{ "item": "phase-fabric", "amount": 2 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "dark-matter", "amount": 20 },
+		{ "item": "plastanium", "amount": 40 },
+		{ "item": "phase-fabric", "amount": 15 }
+	],
+	"category": "crafting",
+	"research": "dark-matter-forge",
+}

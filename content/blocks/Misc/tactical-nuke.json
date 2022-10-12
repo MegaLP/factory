@@ -1,0 +1,30 @@
+{
+	"name": "Tactical Nuke",
+	"description": "Set the coordinates and FIRE",
+	"hasItems": true,
+	"solid": true,
+	"configurable": true,
+	"attacks": true,
+	"breakable": true,
+	"commandable": false,
+	"destructible": true,
+	"inEditor": false,
+	"canOverdrive": false,
+	"buildVisibility": "hidden",
+	"itemCapacity": 100000000000000000000000000,
+	"health": 800,
+	"size": 4,
+	"hasShadow": false,
+	"consumes": {
+		"power": 9999999999999999999999999999999999999999999999999999999999999999999999,
+		"items": {
+			"items": [
+				{ "item": "rocket", "amount": 10000000000000000000000000 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "galaxy", "amount": 999999999999999999999999999999999999999999999999999999999999999999999 }
+	],
+	"category": "turret",
+}

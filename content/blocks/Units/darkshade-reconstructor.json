@@ -1,0 +1,28 @@
+{
+	"size": 5,
+	"constructTime": 12000,
+	"liquidCapacity": 500,
+	"consumes": {
+		"power": 62.0,
+		"liquid":{"liquid": "stabilized-liquid", "amount": 4.0, }
+		"items": {
+			"items": [
+				{ "item": "darkshadow", "amount": 55 },
+				{ "item": "red-matter", "amount": 25 },
+				{ "item": "galaxy", "amount": 5 }
+			]
+		},
+	},
+	"upgrades": [
+	[
+		"jade-mech", "darkshade-mech"
+	],
+	]
+	"requirements": [
+		{ "item": "darkshadow", "amount": 520 },
+		{ "item": "red-matter", "amount": 180 },
+		{ "item": "galaxy", "amount": 80 },
+	],
+	"category": "units",
+	"research": "special-unit-factory",
+}

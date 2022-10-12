@@ -1,0 +1,76 @@
+{
+    "type": "PowerTurret",
+	"name": "Dark Matter Shooter",
+    "size": 1,
+    "health": 340,
+    "reload": 24,
+    "range": 250,
+    "maxAmmo": 48,
+    "inaccuracy": 1,
+    "targetAir": true,
+    "targetGround": true,
+    "shootCone": 0.08,
+    "recoilPow": 0.7,
+    "rotateSpeed": 5,
+    "shootSound": "lasershoot",
+    "consumes": {
+		"power": 11,
+	},
+    "hasPower": true,
+    "shootType": {
+        "type": "BasicBulletType",
+        "sprite": "factory-plasma",
+        "absorbable": true,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "drag": -0.01,
+        "speed": 2,
+        "lifetime": 100,
+        "damage": 32,
+        "maxRange": 250,
+        "height": 3,
+        "width": 3,
+        "trailEffect": {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "length": 0,
+        "lifetime": 24,
+        "sizeFrom": 3,
+        "sizeTo": 1,
+        "region": "factory-plasma-back",
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "FFF68FFF"
+        },
+        "trailChance": 1,
+        "hitEffect": {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 25,
+        "strokeFrom": 0,
+        "strokeTo": 1,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "FFF68FFF"
+        },
+        "despawnEffect": {
+        "type": "WaveEffect",
+        "lifetime": 25,
+        "sizeFrom": 0,
+        "sizeTo": 25,
+        "strokeFrom": 0,
+        "strokeTo": 1,
+        "colorFrom": "FFFFFFFF",
+        "colorTo": "FFF68FFF"
+        },
+        "frontColor": "FFFFFFFF",
+        "backColor": "FFF68FFF"
+    },
+    "requirements": [
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "dark-matter", "amount": 20 },
+		{ "item": "copper", "amount": 10 },
+		{ "item": "lead", "amount": 30 }
+	],
+    "category": "turret",
+    "research": "dark-matter-turret"
+}

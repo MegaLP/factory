@@ -1,0 +1,123 @@
+{
+	"type": "ItemTurret",
+	"name": "Shotgun",
+	"description": "It Fires a Cone of Bullets.",
+	"health": 1300,
+	"size": 3,
+	"shoot": {
+		"shots": 10,
+	}
+	"inaccuracy": 6,
+	"coolantMultiplier": 10,
+	"ammoEjectBack": 5,
+	"shake": 2,
+	"range": 185,
+	"targetAir": true,
+	"targetGround": true,
+	"shootSound": "Sounds.artillery",
+	"ammoTypes": {
+		"graphite": {
+			"type": "BasicBulletType",
+			"lifetime": 100,
+			"speed": 6,
+			"splashDamageRadius": 10,
+			"splashDamage": 20,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"damage": 25,
+			},
+		"silicon": {
+			"type": "BasicBulletType",
+			"lifetime": 100,
+			"speed": 8,
+			"splashDamageRadius": 20,
+			"splashDamage": 30,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"homingPower": 100,
+			"homingRange": 50,
+			"damage": 30,
+			}
+		"pyratite": {
+			"type": "BasicBulletType",
+			"lifetime": 100,
+			"speed": 6,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"damage": 45,
+			"incendAmount": 8,
+			"incendSpread": 10,
+			}
+		"blast-compound": {
+			"type": "BasicBulletType",
+			"lifetime": 100,
+			"speed": 10,
+			"splashDamageRadius": 60,
+			"splashDamage": 60,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"damage": 30,
+			}
+		"dark-matter": {
+			"speed": 2.0,
+			"lifetime": 80,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"homingPower": 100,
+			"homingRange": 100,
+			"ammoMultiplier": 5,
+			"splashDamage": 22,
+			"splashDamageRadius": 25,
+			"collidesTiles": false,
+			"fragBullets":7,
+			"fragBullet":{
+				"backColor": "fffff0",
+				"frontColor": "ffffe0",
+				"despawnEffect": "hitBulletSmall",
+				"trailColor": "556b2f",
+				"smokeEffect": "shootSmallSmoke",
+				"keepVelocity": false,
+				"lifetime": 5,
+				"speed": 3,
+				"splashDamage": 3,
+				"splashDamageRadius":  2,
+				"collidesTiles": false
+			}
+		},
+		"red-matter": {
+			"speed": 3,
+			"lifetime": 80,
+			"collidesTiles": false,
+			"splashDamage": 40,
+			"splashDamageRadius": 50,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"homingPower": 100,
+			"homingRange": 100,
+			"ammoMultiplier": 8,
+			"status": "burning",
+			"fragBullets": 15,
+			"fragBullet":{
+				"backColor":"fffff0",
+				"frontColor":"ffffe0",
+				"despawnEffect":"hitBulletSmall",
+				"trailColor":"556b2f",
+				"smokeEffect":"shootSmallSmoke",
+				"speed":5,
+				"lifetime": 5,
+				"splashDamage": 8,
+				"homingPower": 50,
+				"homingRange": 50,
+				"splashDamageRadius": 25,
+				"collidesTiles": false
+			}
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "red-matter", "amount": 30 }
+		{ "item": "dark-matter", "amount": 50 }
+	],
+	"category": "turret",
+	"research": "dark-matter-turret"
+}

@@ -1,0 +1,96 @@
+{
+	"type": "PowerTurret",
+	"name": "Darkshade Laser",
+	"size": 4,
+	"health": 8180,
+	"reload": 200,
+	"range": 980,
+	"inaccuracy": 1,
+	"moveWhileCharging": false,
+	"shootEffect": {
+		"type": "multiEffect",
+		"lifetime": 20,
+		"effects": [
+		{
+			"type": "ParticleEffect",
+			"cone": 35,
+			"sizeFrom": 7,
+			"lightScl": 1,
+			"sizeTo": 1,
+			"strokeFrom": 0,
+			"strokeTo": 12,
+			"particles": 15,
+			"length": 100,
+			"colorFrom": "785e20FF",
+			"colorTo": "9c720eFF",
+		}
+		]
+	}
+	"shoot": {
+		"shots": 12,
+		"shotDelay": 5
+	}
+	"targetAir" : true, 
+	"targetGround" : true,
+	"shootCone" : 2,
+	"recoilPow" : 1.5,
+	"rotateSpeed": 8,
+	"shootSound" : "railgun",
+    "consumes": {
+		"power": 12,
+	},
+    "hasPower" : true,
+    "shootType" : {
+		"type" : "pointBulletType",
+		"damage": 2200,
+		"lightning": 15,
+		"lightningLength": 20,
+		"lightningDamage": 135,
+		"speed": 240,
+		"trailSpacing": 15,
+		"collidesTiles" : true,
+		"buildingDamageMultiplier": 0.1,
+		"trailEffect": {
+			"type": "ParticleEffect",
+			"particles": 1,
+			"length": 0,
+			"lifetime": 35,
+			"sizeFrom": 20,
+			"region": "factory-wide",
+			"colorFrom": "F3E979FF",
+			"colorTo": "FFDA45FF"
+				},
+		"despawnEffect": {
+			"type": "WaveEffect",
+			"lifetime": 15,
+			"sizeFrom": 0,
+			"sizeTo": 45,
+			"strokeFrom": 4,
+			"strokeTo": 0,
+			"colorFrom": "F3E979FF",
+			"colorTo": "FFDA45FF"
+				},
+		"hitEffect": {
+			"type": "WaveEffect",
+			"lifetime": 15,
+			"sizeFrom": 0,
+			"sizeTo": 45,
+			"strokeFrom": 4,
+			"strokeTo": 0,
+			"colorFrom": "F3E979FF",
+			"colorTo": "FFDA45FF"
+		}
+	},
+	"requirements": [
+		{ "item": "darkshadow", "amount": 900 },
+		{ "item": "dark-matter", "amount": 850 },
+		{ "item": "red-matter", "amount": 420 },
+		{ "item": "plastanium", "amount": 1500 },
+		{ "item": "phase-fabric", "amount": 600 },
+		{ "item": "copper", "amount": 4600 },
+		{ "item": "lead", "amount": 3500 },
+		{ "item": "surge-alloy", "amount": 2000 }
+	],
+	"category": "turret",
+	"research": "red-matter-laser"
+}

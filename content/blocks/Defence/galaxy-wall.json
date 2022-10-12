@@ -1,0 +1,19 @@
+{
+	"type": "Wall",
+	"name": "Galaxy Wall",
+	"description": "The Galaxy wall.",
+	"type": "Wall",
+	"health": 50000,
+	"size": 1,
+	"lightningChance": 0.5,
+	"lightningDamage": 100,
+	"lightningLength": 50,
+	"chanceDeflect": 20,
+	"buildCostMultiplier": 20,
+	"flashHit": true,
+	"requirements": [
+		{ "item": "galaxy", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "electrum-wall"
+}

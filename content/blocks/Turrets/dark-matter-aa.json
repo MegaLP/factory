@@ -1,0 +1,29 @@
+{
+	"type": "ItemTurret",
+	"name": "Dark Matter AA",
+	"description": "Long Range low dmage.",
+	"targetAir": true,
+	"targetGround": false,
+	"health": 1400,
+	"size": 2,
+	"range": 1000,
+	"inaccuracy": 1,
+	"liquidCapacity":180,
+	"ammoTypes": {
+		"lead": {
+			"type": "FlakBulletType",
+			"speed": 5.0,
+			"lifetime": 500,
+			"damage": 10,
+			"splashDamage": 10,
+			"splashDamageRadius": 15,
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 400 },
+		{ "item": "copper", "amount": 700 }
+		{ "item": "dark-matter", "amount": 500 }
+	],
+	"category": "turret",
+	"research": "dark-matter-turret"
+}

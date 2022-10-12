@@ -1,0 +1,116 @@
+{
+	"type": "ItemTurret",
+	"name": "Sniper Turret",
+	"targetAir": true,
+	"targetGround": true,
+	"description": "Long Range low dmage and attack speed.",
+	"health": 1400,
+	"size": 4,
+	"range": 1000,
+	"inaccuracy": 1,
+	"liquidCapacity": 180,
+	"shootCone": 1,
+	"reload": 160,
+	"ammoTypes": {
+		"rocket": {
+			"speed": 5.0,
+			"lifetime":2000,
+			"damage": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"splashDamage":20,
+			"splashDamageRadius":10
+			"homingPower":100,
+			"homingRange":300,
+			"ammoMultiplier": 6,
+			"fragBullets":100,
+			"collides":true,
+			"keepVelocity":true,
+			"fragBullet":{
+				"backColor":"fffff0",
+				"frontColor":"ffffe0",
+				"despawnEffect":"hitBulletSmall",
+				"trailColor":"556b2f",
+				"smokeEffect":"shootSmallSmoke",
+				"collides":true,
+				"keepVelocity":true,
+				"speed":80,
+				"lifetime":2,
+				"damage":1,
+				"splashDamage":1,
+				"splashDamageRadius":10
+				}
+		},
+		"silicon": {
+			"speed": 10.0,
+			"lifetime":1000,
+			"damage": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"homingPower":80,
+			"homingRange":500,
+			"ammoMultiplier": 3
+		},
+		"dark-matter": {
+			"speed": 10.0,
+			"damage": 15,
+			"lifetime":1000,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"homingPower":100,
+			"homingRange":100,
+			"ammoMultiplier": 4,
+			"fragBullets":7,
+			"fragBullet":{
+				"backColor":"fffff0",
+				"frontColor":"ffffe0",
+				"despawnEffect":"hitBulletSmall",
+				"trailColor":"556b2f",
+				"smokeEffect":"shootSmallSmoke",
+				"collides":true,
+				"keepVelocity":true,
+				"speed":5,
+				"damage":1,
+				"splashDamage":3,
+				"splashDamageRadius":2
+			}
+		},
+		"red-matter": {
+			"speed": 10.0,
+			"lifetime": 1000,
+			"damage": 25,
+			"splashDamage": 5,
+			"splashDamageRadius": 5
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"homingPower": 100,
+			"homingRange": 100,
+			"ammoMultiplier": 8,
+			"status":"burning",
+			"keepVelocity":true,
+			"collides":true,
+			"pierce":true,
+			"fragBullets":15,
+			"fragBullet":{
+				"backColor":"fffff0",
+				"frontColor":"ffffe0",
+				"despawnEffect":"hitBulletSmall",
+				"trailColor":"556b2f",
+				"smokeEffect":"shootSmallSmoke",
+				"collides":true,
+				"keepVelocity":true,
+				"speed":5,
+				"damage":2,
+				"splashDamage":5,
+				"splashDamageRadius":3
+			}
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "copper", "amount": 70 }
+		{ "item": "dark-matter", "amount": 10 }
+	],
+	"category": "turret",
+	"research": "dark-matter-turret"
+}

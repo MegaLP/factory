@@ -1,0 +1,33 @@
+{
+	"type": "LaserTurret",
+	"name": "Multi Shade",
+	"description": "Made from Shade.",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 3500,
+	"size": 2,
+	"reload": 2,
+	"range": 450,
+	"firingMoveFract": 0.05,
+	"shootDuration": 40,
+	"consumes": {
+		"power": 1,
+		"liquid":{"liquid": "water", "amount":0.1}
+	},
+	"shootSound": "laser",
+	"shootType": {
+		"type": "ContinuousLaserBulletType",
+		"hitSize": 20,
+		"length": 500,
+		"width": 15,
+		"divisions": 100,
+		"damage": 250,
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "darkshadow", "amount": 70 }
+		{ "item": "dark-matter", "amount": 10 }
+	],
+	"category": "turret",
+	"research": "red-matter-laser"
+}

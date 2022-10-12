@@ -1,0 +1,45 @@
+{
+	"type": "UnitFactory",
+	"size": 3,
+	"consumes": {
+		"power": 6.0,
+	},
+	"plans": [
+	{
+		"unit": "exo-mech",
+		"requirements": [
+			{ "item": "surge-alloy", "amount": 30 },
+			{ "item": "dark-matter", "amount": 50 }
+		],
+		"time": 700
+	},
+	{
+		"unit": "jade-mech",
+		"requirements": [
+			{ "item": "red-matter", "amount": 8 },
+			{ "item": "silicon", "amount": 14 },
+			{ "item": "titanium", "amount": 60 },
+			{ "item": "surge-alloy", "amount": 4 }
+		],
+		"time": 1700
+	},
+	{
+		"unit": "bob-mech",
+		"requirements": [
+			{ "item": "surge-alloy", "amount": 24 },
+			{ "item": "dark-matter", "amount": 12 },
+			{ "item": "titanium", "amount": 16 }
+		],
+		"time": 3000
+	},
+	
+	],
+	"requirements": [
+		{ "item": "dark-matter", "amount": 170 },
+		{ "item": "red-matter", "amount": 50 },
+		{ "item": "silicon", "amount": 800 },
+		{ "item": "surge-alloy", "amount": 300 }
+	],
+	"category": "units",
+	"research": "advanced-unit-factory",
+}

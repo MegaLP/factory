@@ -1,0 +1,48 @@
+{
+	"type": "ItemTurret",
+	"name": "Multi Attack",
+	"description": "it will kill",
+	"health": 700,
+	"targetAir": true,
+	"targetGround": true,
+	"size": 2,
+	"maxAmmo": 120,
+	"shoot": {
+		"shots": 5,
+	}
+	"range": 135,
+	"inaccuracy": 0,
+	"ammoTypes": {
+		"copper": {
+			"type": "MissileBulletType",
+			"speed": 5.0,
+			"lifetime": 50,
+			"damage": 3,
+			"weaveMag": 5,
+			"weaveScale": 2,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 4,
+			"collides":true,
+			},
+		"thorium": {
+			"type": "MissileBulletType",
+			"speed": 7.0,
+			"lifetime": 80,
+			"damage": 8,
+			"weaveMag": 5,
+			"weaveScale": 2,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 6,
+			"collides":true,
+			}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "copper", "amount": 20 },
+		{ "item": "lead", "amount": 30 }
+	],
+	"category": "turret",
+	"research": "dark-matter-turret"
+}

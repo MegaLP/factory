@@ -1,0 +1,12 @@
+{
+	"name": "Dark Matter Wall",
+	"description": "The dark matter wall.",
+	"health": 570,
+	"size": 1,
+	"buildCostMultiplier": 4,
+	"requirements": [
+		{ "item": "dark-matter", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "core-kento"
+}

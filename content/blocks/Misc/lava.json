@@ -1,0 +1,21 @@
+{
+	"name": "Lava",
+	"type": "Floor",
+	"variants": 1,
+	"description": "Danger keep out!",
+	"speedMultiplier": 0.1,
+	"damageTaken": 50,
+	"drownTime": 10,
+	"isLiquid": true,
+	"walkEffect": "lava",
+	"drownUpdateEffect": "bubble",
+	"status": "molten2",
+	"statusDuration": 1000,
+	"liquidDrop": "liquid-lava",
+	"cacheLayer": "slag",
+	"emitLight": true,
+	"lightRadius": 40,
+	"lightColor": "Color.orange.cpy().a(0.38f)",
+	"playerUnmineable": true
+
+}

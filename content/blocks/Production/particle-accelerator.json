@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Particle Accelerator",
+	"description": "Produces Galaxy Dust.",
+	"liquidCapacity": 100,
+	"outputItem": {"item": "galaxy-dust", "amount": 3},
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 200,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 24.0,
+		"liquid":{"liquid": "stabilized-liquid", "amount": 0.3, }
+		"items": {
+			"items": [
+				{ "item": "darkshadow", "amount": 1 },
+				{ "item": "dark-matter", "amount": 2 }
+			]
+		},
+		
+	},
+	"requirements": [
+		{ "item": "darkshadow", "amount": 75 },
+		{ "item": "dark-matter", "amount": 150 }
+	],
+	"category": "crafting",
+	"research": "electrum-forge",
+}

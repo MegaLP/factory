@@ -1,0 +1,13 @@
+{
+	"type": "Wall",
+	"name": "Red Matter Wall",
+	"description": "The red matter wall.",
+	"health": 6500,
+	"size": 2,
+	"buildCostMultiplier": 8,
+	"requirements": [
+		{ "item": "red-matter", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "dark-matter-wall-large"
+}

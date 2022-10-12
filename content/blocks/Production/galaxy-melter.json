@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Galaxy Melter",
+	"description": "It Produces molten galaxy.",
+	"liquidCapacity": 100,
+	"size": 2,
+	"outputLiquid": {
+		"liquid": "molten-galaxy",
+		"amount": 7.8
+	},
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 200,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 12.5,
+		"items": {
+			"items": [
+				{ "item": "infused-galaxy-dust", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "darkshadow", "amount": 150 }
+	],
+	"category": "crafting",
+	"research": "galaxy-infuser",
+}

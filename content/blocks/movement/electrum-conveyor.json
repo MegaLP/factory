@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "Electrum conveyor",
+	"description": "FAST conveyor.",
+	"requirements": [
+		{"item": "electrum", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 5.00,
+	"displayedSpeed": 242,
+	"health": 1200,
+	"research": "red-matter-conveyor"
+}

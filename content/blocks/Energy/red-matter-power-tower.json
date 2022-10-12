@@ -1,0 +1,14 @@
+{
+	"name": "Red Matter Power Tower",
+	"description": "The red matter Power Tower.",
+	"type": "PowerNode",
+	"size": 2,
+	"health": 750,
+	"maxNodes": 3,
+	"laserRange": 140,
+	"requirements": [
+		{ "item": "red-matter", "amount": 15 }
+	],
+	"category": "power",
+	"research": "red-matter-power-node"
+}

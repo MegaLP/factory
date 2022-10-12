@@ -1,0 +1,28 @@
+{
+	"name": "Teleporter",
+	"description": "Teleports items",
+	"size": 1,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 1000,
+	"reload": 0,
+	"range": 99999,
+	"shake": 0,
+	"rotateSpeed": 999999999,
+	"bulletSpeed": 500,
+	"knockback": 0,
+	"shootEffect": "none",
+	"smokeEffect": "none",
+	"receiveEffect": "none",
+	"shootSound": "none",
+	"hasShadow": false,
+	"health": 10000,
+	"consumes": {
+		"power": 3.5,
+	},
+	"requirements": [
+		{ "item": "galaxy", "amount": 200 }
+	],
+	"category": "distribution",
+	"research": "dark-matter-massdriver",
+}

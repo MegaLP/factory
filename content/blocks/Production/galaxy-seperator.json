@@ -1,0 +1,26 @@
+{
+	"type": "Separator",
+	"name": "Galaxy Seperator",
+	"description": "It has a chance to produces Galaxy Material.",
+	"liquidCapacity": 100,
+	"results": [
+		{"item": "galaxy-dust", "amount": 3},
+		{"item": "galaxy", "amount": 1},
+		{"item": "infused-galaxy-dust", "amount": 1}
+	],
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"consumes": {
+		"power": 5.0,
+		"liquid":{"liquid": "molten-galaxy", "amount": 0.2, }
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "darkshadow", "amount": 150 }
+	],
+	"category": "crafting",
+	"research": "galaxy-melter",
+}

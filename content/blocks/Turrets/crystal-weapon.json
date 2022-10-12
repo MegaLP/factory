@@ -1,0 +1,30 @@
+{
+	"type": "ItemTurret",
+	"name": "Crystal weapon",
+	"description": "it is powerd by crystals.",
+	"health": 7000,
+	"size": 2,
+	"range": 60,
+	"inaccuracy": 1,
+	"shoot": {
+		"shots": 2,
+	}
+	"targetAir": false,
+	"targetGround": true,
+	"ammoTypes": {
+		"graphite": {
+			"type": "MissileBulletType",
+			"lifetime": 14,
+			"pierce": true,
+			"speed": 5,
+			"damage": 3000,
+			"frontColor": "ffff00",
+			"backColor": "00ffff"
+		}
+	},
+	"requirements": [
+		{ "item": "darkshadow", "amount": 30 }
+	],
+	"category": "turret",
+	"research": "electrum-turret"
+}

@@ -1,0 +1,26 @@
+{
+	"name": "Red Matter Forcefield",
+	"description": "The red matter forcfield.",
+	"type": "forceProjector",
+	"health": 550,
+	"size": 3,
+	"radius": 250,
+	"phaseUseTime": 500,
+	"phaseRadiusBoost": 150,
+	"cooldownNormal": 2.0,
+	"cooldownLiquid": 1.75,
+	"cooldownBrokenBase": 0.5,
+	"consumes":{
+		"power": 15.5,
+		"items": {
+			"items": [
+				{ "item": "phase-fabric", "amount": 1}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "red-matter", "amount": 10 }
+	],
+	"category": "effect",
+	"research": "red-matter-power-node"
+}

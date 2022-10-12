@@ -1,0 +1,14 @@
+{
+	"type": "SolarGenerator",
+	"name": "Red Matter Solar Panel Small",
+	"description": "It gives Power",
+	"size": 1,
+	"powerProduction": 1.0,
+	"requirements": [
+		{ "item": "red-matter", "amount": 50 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "copper", "amount": 10 }
+	],
+	"category": "power",
+	"research": "core-kento"
+}

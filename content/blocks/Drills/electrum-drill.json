@@ -1,0 +1,23 @@
+{
+	"name": "Electrum Drill",
+	"description": "A very strange drill.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 9,
+	"drillTime": 5,
+	"liquidCapacity":50,
+	"consumes": {
+		"power": 0.1,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "electrum", "amount": 10 }
+	],
+	"category": "production",
+	"research": "core-kento"
+}

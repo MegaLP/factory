@@ -1,0 +1,15 @@
+{
+	"name": "Red Matter Battery",
+	"description": "The red matter Battery.",
+	"type": "battery",
+	"size": 1,
+	"health": 1000,
+	"consumes": {
+		"powerBuffered": 200000.0,
+		},
+	"requirements": [
+		{ "item": "red-matter", "amount": 35 }
+	],
+	"category": "power",
+	"research": "core-kento"
+}

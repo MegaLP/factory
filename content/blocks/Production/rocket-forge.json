@@ -1,0 +1,29 @@
+{
+	"name": "Rocket Forge",
+	"description": "Produces Rockets .",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "rocket", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 8.5,
+		"items": {
+			"items": [
+				{ "item": "plastanium", "amount": 6 },
+				{ "item": "metaglass", "amount": 3 },
+				{ "item": "blast-compound", "amount": 1 }
+				{ "item": "silicon", "amount": 8 }
+			]
+		},
+	},
+	"requirements": [
+			{ "item": "plastanium", "amount": 60 },
+			{ "item": "metaglass", "amount": 30 }
+	],
+	"category": "crafting",
+	"research": "dark-matter-forge",
+}
