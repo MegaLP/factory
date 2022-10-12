@@ -1,0 +1,8 @@
+{
+	"name": "Liquid Lava",
+	"description": "Warning hot!.",
+	"temperature": 1.4,
+    "viscosity": 0.9,
+	"effect": "melting",
+    "color": "d95f34"
+}

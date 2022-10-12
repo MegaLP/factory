@@ -1,0 +1,14 @@
+{
+	"research": {
+		"parent": "core-kento",
+		"requirements": [
+			{ "item": "copper", "amount": 15000 }
+			{ "item": "lead", "amount": 10000 }
+			{ "item": "silicon", "amount": 5000 }
+		],
+	},
+	"name": "Dark Matter",
+	"description": "increadibly dence.",
+	"cost": 1.5,
+	"color": "#000000"
+}

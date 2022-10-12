@@ -1,0 +1,13 @@
+{
+	"research": {
+		"parent": "red-matter",
+		"requirements": [
+			{ "item": "blast-compound", "amount": 5000 }
+			{ "item": "plastanium", "amount": 5000 }
+			{ "item": "metaglass", "amount": 10000 }
+		],
+	},
+	"name": "Rocket",
+	"description": "An Explosive Rocket.",
+	"color": "#CC0000"
+}

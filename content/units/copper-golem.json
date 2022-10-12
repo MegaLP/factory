@@ -1,0 +1,30 @@
+{
+	"type": "mech",
+	"name": "Copper Golem",
+	"description": "Garbage.",
+	"speed": 3,
+	"flying": false,
+	"health": 20,
+	"engineOffset": 5.5,
+	"range": 75,
+	"weapons": [
+		{
+		"name": "copper-blaster",
+		"reload": 10,
+		"alternate": true,
+		"bullet": {
+			"type": "LaserBoltBulletType",
+			"lifetime": 10,
+			"speed": 10,
+			"damage": 4,
+			},
+		}
+	],
+	"research": {
+		"parent": "advanced-unit-factory",
+		"requirements": [
+			{ "item": "copper", "amount": 1500 },
+			{ "item": "lead", "amount": 1000 }
+		],
+	},
+}

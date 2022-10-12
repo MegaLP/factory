@@ -1,0 +1,10 @@
+{
+	"name": "Molten Galaxy",
+	"description": "can be used to create galaxy Material (Dangerus aswell).",
+	"temperature": 10,
+    "viscosity": 0.95,
+	"heatCapacity": 0.001,
+	"explosiveness": 100,
+	"effect": "melting",
+    "color": "44b8b1"
+}

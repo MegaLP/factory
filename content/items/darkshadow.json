@@ -1,0 +1,15 @@
+{
+	"research": {
+		"parent": "electrum",
+		"requirements": [
+			{ "item": "electrum", "amount": 10000 }
+			{ "item": "dark-matter", "amount": 7500 }
+			{ "item": "red-matter", "amount": 5000 }
+		],
+	},
+	"name": "Darkshadow",
+	"description": "Mined out of the pure shadows",
+	"cost": 1.0,
+	"hardness": 10,
+	"color": "#000000"
+}

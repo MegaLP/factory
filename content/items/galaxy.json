@@ -1,0 +1,14 @@
+{
+	"research": {
+		"parent": "infused-galaxy-dust",
+		"requirements": [
+			{ "item": "electrum", "amount": 15000 }
+			{ "item": "darkshadow", "amount": 35000 }
+		],
+	},
+	"name": "Galaxy Material",
+	"description": "Can only be made out of galaxy dust",
+	"cost": 5.0,
+	"hardness": 9999999999999,
+	"color": "#593396"
+}

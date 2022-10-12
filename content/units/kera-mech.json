@@ -1,0 +1,37 @@
+{
+	"name": "Kera",
+	"type": "flying",
+	"description": "Stop the Fire",
+	"speed": 3.5,
+	"buildSpeed": 8.0,
+	"mineSpeed": 5.0,
+	"mineTier": 3.0,
+	"itemCapacity": 70.0,
+	"flying": true,
+	"health": 200,
+	"armor": 3,
+	"immunities": [
+	"burning"
+	],
+	"weapons": [
+		{
+		"name": "chrome-blaster",
+		"reload": 1,
+		"alternate": false,
+		"bullet": {
+			"type": "LiquidBulletType",
+			"puddleSize": 12,
+			"liquid": "stabilized-liquid"
+			"orbSize": 6
+			}
+		}
+	]
+	"research": {
+		"parent": "special-unit-reconstructor",
+		"requirements": [
+			{ "item": "copper", "amount": 5500 },
+			{ "item": "lead", "amount": 3000 },
+			{ "item": "dark-matter", "amount": 1500 }
+		],
+	},
+}

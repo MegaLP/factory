@@ -1,0 +1,10 @@
+{
+"speedMultiplier": 0.5,
+"show": true,
+"effect": "melting",
+"opposites": ["freezing"],
+"affinities": ["tarred", "melting", "molten1"],
+"transitionDamage": 15,
+"damage": 1.8,
+"healthMultiplier": 0.5
+}

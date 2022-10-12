@@ -1,0 +1,9 @@
+{
+	"name": "Stabilized Liquid",
+	"description": "So stabilized that it stabilizes it self",
+	"temperature": 0,
+    "viscosity": 0.2,
+	"heatCapacity": 1.50,
+	"effect": "freezing",
+    "color": "44b8b1"
+}

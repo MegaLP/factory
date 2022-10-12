@@ -1,0 +1,269 @@
+{
+	"type": "tank",
+	"name": "P 1000 Ratte",
+	"description": "The Landkreuzer P. 1000 'Ratte' (English: Land Cruiser P. 1000 'Rat') was a design for a 1000-ton tank to be used by Germany during World War II which may have been proposed by Krupp director Edward Grotte in June 1942, who had already named it 'Landkreuzer'. Submitted designs and drawings of the vehicle went under the names OKH Auftrag Nr. 30404 and E-30404/1, which were presented in December 1942. The tank was planned to be 1000 tonnes, being far heavier than the Panzer VIII 'Maus', the heaviest tank ever built (weighing 188 tonnes). The project gained the approval of Adolf Hitler, who had expressed interest in the development of the tank, but was cancelled by Minister of Armaments Albert Speer in early 1943.",
+	"speed": 0.25,
+	"health": 500000,
+	"armor": 400,
+	"hitSize": 140,
+	"rotateSpeed": 0.1,
+	"treadPullOffset": 8,
+	"crushDamage": 600,
+	"omniMovement": false,
+	"squareShape": true,
+	"rotateMoveFirst": true,
+	"treadRects": [
+		{
+			"x": 160,
+			"y": 0,
+			"width": 20,
+			"height": 80,
+		}
+	],
+	"immunities": [
+	"burning",
+	"melting"
+	],
+	"weapons": [
+		{
+			"name": "ratte-weapon-left",
+			"reload": 800,
+			"cooldownTime": 10,
+			"recoilPow": 50,
+			"alternate": false,
+			"mirror": false,
+			"rotate": true,
+			"top": false,
+			"shootSound": "none",
+			"rotateSpeed": 0.06,
+			"shake": 15,
+			"recoil": 18,
+			"shootX": -25,
+			"shootY": 25,
+			"layerOffset": 1,
+			"ejectEffect": {
+				"type": "multiEffect",
+				"effects": [
+					{
+						"type": "WaveEffect",
+						"colorFrom": "#242424",
+						"colorTo": "#4f4d4d",
+						"offsetX": 120,
+						"offsetY": 25
+					},
+					{
+						"type": "ParticleEffect"
+						"sizeFrom": 8,
+						"strokeFrom": 8,
+						"lenFrom": 12,
+						"offsetX": 120,
+						"offsetY": 25
+					}
+				]
+			},
+			"x": 0,
+			"y": 20,
+			"bullet": {
+				"type": "BasicBulletType",
+				"collidesAir": false,
+				"sprite": "factory-p.1000-ratte-nade",
+				"damage": 150000,
+				"speed": 15,
+				"hitSize": 20,
+				"lifetime": 200,
+				"maxRange": 300,
+				"splashDamageRadius": 200,
+				"splashDamage": 50000,
+				"drawSize": 200,
+				"width": 25,
+				"height": 40,
+				"hittable": false,
+				"reflectable": false,
+				"absorbable": false,
+				"makeFire": false,
+				"shootEffect": "none",
+				"despawnEffect": "none",
+				"smokeEffect": "none"
+				}
+		},
+		{
+			"name": "ratte-weapon-right",
+			"reload": 800,
+			"cooldownTime": 10,
+			"recoilPow": 50,
+			"alternate": false,
+			"mirror": false,
+			"rotate": true,
+			"top": false,
+			"rotateSpeed": 0.06,
+			"shootSound": "none",
+			"shake": 15,
+			"recoil": 18,
+			"shootX": 25,
+			"shootY": 25,
+			"layerOffset": 1,
+			"ejectEffect": {
+				"type": "multiEffect",
+				"effects": [
+					{
+						"type": "WaveEffect",
+						"colorFrom": "#242424",
+						"colorTo": "#4f4d4d",
+						"offsetX": 120,
+						"offsetY": -25
+					},
+					{
+						"type": "ParticleEffect"
+						"sizeFrom": 8,
+						"strokeFrom": 8,
+						"lenFrom": 12,
+						"offsetX": 120,
+						"offsetY": -25
+					}
+				]
+			},
+			"x": 0,
+			"y": 20,
+			"bullet": {
+				"type": "BasicBulletType",
+				"collidesAir": false,
+				"sprite": "factory-p.1000-ratte-nade",
+				"damage": 150000,
+				"speed": 15,
+				"hitSize": 20,
+				"lifetime": 200,
+				"maxRange": 300,
+				"splashDamageRadius": 200,
+				"splashDamage": 50000,
+				"drawSize": 200,
+				"width": 25,
+				"height": 40,
+				"hittable": false,
+				"reflectable": false,
+				"absorbable": false,
+				"makeFire": false,
+				"shootEffect": "none",
+				"despawnEffect": "none",
+				"smokeEffect": "none"
+				}
+		},
+		{
+			"name": "ratte-weapon-base",
+			"reload": 800,
+			"alternate": false,
+			"mirror": false,
+			"rotate": true,
+			"rotateSpeed": 0.06,
+			"recoil": 0,
+			"top": false,
+			"shootSound": "ratte-fire-main",
+			"soundPitchMin": 1,
+			"soundPitchMax": 1,
+			"x": 0,
+			"y": 20,
+			"layerOffset": 1,
+			"bullet": {
+				"type": "BasicBulletType",
+				"speed": 15,
+				"lifetime": 200,
+				"maxRange": 300,
+				"width": 0,
+				"height": 0,
+				"damage": 0,
+				"collidesAir": false,
+				"instantDisappear": true,
+				"shootEffect": "none",
+				"despawnEffect": "none",
+				"smokeEffect": "none"
+			}
+		},
+		{
+			"name": "ratte-aa",
+			"reload": 2,
+			"ignoreRotation": true,
+			"alternate": true,
+			"mirror": true,
+			"rotate": true,
+			"autoTarget": true,
+			"inaccuracy": 5,
+			"rotateSpeed": 0.8,
+			"shootCone": 10,
+			"controllable": false
+			"shoot": {
+				"shots": 4,
+				"shotDelay": 1
+			}
+			"recoil": 0,
+			"x": 20,
+			"y": -50,
+			"ejectEffect": {
+				"type": "multiEffect",
+				"effects": [
+					{
+						"type": "ParticleEffect"
+						"sizeFrom": 4,
+						"strokeFrom": 4,
+						"lenFrom": 6
+					}
+				]
+			},
+			"bullet": {
+				"type": "BasicBulletType",
+				"collidesGround": false,
+				"speed": 5,
+				"lifetime": 200,
+				"maxRange": 70,
+				"width": 5,
+				"height": 5,
+				"damage": 5,
+				"hitSize": 20,
+				"damage": 200,
+			}
+		},
+		{
+			"name": "ratte-pak",
+			"reload": 400,
+			"ignoreRotation": true,
+			"mirror": false,
+			"rotate": true,
+			"shootSound": "none",
+			"rotationLimit": 2,
+			"inaccuracy": 1,
+			"rotateSpeed": 0.06,
+			"recoil": 3,
+			"cooldownTime": 350,
+			"x": 44,
+			"y": 87,
+			"bullet": {
+				"type": "BasicBulletType",
+				"collidesAir": false,
+				"pierceBuilding": true,
+				"pierce": true,
+				"pierceCap": 8,
+				"splashDamage": 100,
+				"speed": 25,
+				"lifetime": 100,
+				"maxRange": 70,
+				"width": 13,
+				"height": 20,
+				"damage": 30000,
+				"hitSize": 60,
+				"damage": 200,
+			}
+		}
+	]
+	"research": {
+		"parent": "historical-tank-factory",
+		"requirements": [
+			{ "item": "electrum", "amount": 50000 },
+			{ "item": "thorium", "amount": 195000 },
+			{ "item": "carbide", "amount": 12500 },
+			{ "item": "tungsten", "amount": 3500000 },
+			{ "item": "surge-alloy", "amount": 15000 },
+			{ "item": "phase-fabric", "amount": 1500 },
+			{ "item": "metaglass", "amount": 7500 },
+			{ "item": "silicon", "amount": 1000000 },
+			{ "item": "titanium", "amount": 200000 },
+		],
+	},
+}

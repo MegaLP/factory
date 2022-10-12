@@ -1,0 +1,52 @@
+{
+	"type": "mech",
+	"name": "Bob",
+	"description": "Watch out before you burn yourself",
+	"speed": 0.7,
+	"buildSpeed": 2.0,
+	"flying": false,
+	"health": 4000,
+	"armor": 25,
+	"canBoost": true,
+	"boostMultiplier": 3.5,
+	"abilities": [
+		{
+			"type": "ForceFieldAbility",
+			"radius": 30,
+			"regen": 1,
+			"max": 100,
+			"cooldown": 120
+		}
+	]
+	"immunities": [
+	"burning",
+	"melting"
+	],
+	"weapons": [
+		{
+		"name": "chrome-blaster",
+		"reload": 80,
+		"alternate": false,
+		"bullet": {
+			"type": "LaserBulletType",
+			"damage": 200,
+			"sideAngle": 15,
+			"sideWidth": 3,
+			"sideLength": 120,
+			"makeFire": true,
+			"healPercent": 10,
+			"collidesTeam": true,
+			"width": 25,
+			"length": 200,
+			}
+		}
+	]
+	"research": {
+		"parent": "special-unit-factory",
+		"requirements": [
+			{ "item": "surge-alloy", "amount": 5000 },
+			{ "item": "dark-matter", "amount": 7500 },
+			{ "item": "titanium", "amount": 10000 }
+		],
+	},
+}

@@ -1,0 +1,76 @@
+{
+	"name": "Jade",
+	"type": "flying",
+	"description": "More Missiles",
+	"speed": 4.0,
+	"buildSpeed": 5.0,
+	"mineSpeed": 10.0,
+	"mineTier": 5,
+	"flying": true,
+	"drag": 0.4,
+	"armor": 2,
+	"itemCapacity": 150.0,
+	"health": 1500,
+	"immunities": [
+	"burning"
+	],
+	"weapons": [
+		{
+		"name": "chrome-blaster",
+		"x": 5,
+		"y": 0,
+		"reload": 15,
+		"shake": 1,
+		"shoot": {
+			"shots": 2,
+		}
+		"inaccuracy": 5,
+		"alternate": true,
+		"bullet": {
+			"type": "MissileBulletType",
+			"lifetime": 100,
+			"speed": 10,
+			"splashDamageRadius": 20,
+			"splashDamage": 40,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"homingPower": 100,
+			"homingRange": 50,
+			"damage": 30,
+			}
+		},
+		{
+		"name": "chrome-blaster",
+		"x": -5,
+		"y": 0,
+		"reload": 20,
+		"shake": 1,
+		"shoot": {
+			"shots": 2,
+		}
+		"inaccuracy": 5,
+		"alternate": true,
+		"bullet": {
+			"type": "MissileBulletType",
+			"lifetime": 100,
+			"speed": 10,
+			"splashDamageRadius": 20,
+			"splashDamage": 40,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"homingPower": 100,
+			"homingRange": 50,
+			"damage": 30,
+			}
+		}
+	]
+	"research": {
+		"parent": "special-unit-factory",
+		"requirements": [
+			{ "item": "surge-alloy", "amount": 3000 },
+			{ "item": "dark-matter", "amount": 5500 },
+			{ "item": "red-matter", "amount": 4000 },
+			{ "item": "titanium", "amount": 10000 }
+		],
+	},
+}

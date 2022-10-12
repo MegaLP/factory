@@ -1,0 +1,13 @@
+{
+	"research": {
+		"parent": "red-matter",
+		"requirements": [
+			{ "item": "red-matter", "amount": 15000 }
+			{ "item": "plastanium", "amount": 25000 }
+			{ "item": "surge-alloy", "amount": 10000 }
+		],
+	},
+	"name": "Electrum",
+	"description": "An alloy of many materials.",
+	"color": "dcd16b"
+}

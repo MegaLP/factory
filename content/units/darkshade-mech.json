@@ -1,0 +1,128 @@
+{
+	"name": "Darkshade",
+	"type": "flying",
+	"description": "Forged by the Shadows of the dark",
+	"speed": 3.5,
+	"mineSpeed": 50.0,
+	"mineTier": 9.0,
+	"itemCapacity": 1000.0,
+	"engineOffset": 10.0,
+	"engineSize": 6.0,
+	"buildSpeed": 20.0,
+	"hitSize": 10,
+	"flying": true,
+	"armor": 125,
+	"abilities": [
+		{
+			"type": "ForceFieldAbility",
+			"radius": 120,
+			"regen": 2,
+			"max": 300,
+			"cooldown": 60
+		},
+		{
+			"type": "RepairFieldAbility",
+			"amount": 100,
+			"reload": 200,
+			"range": 50
+		}
+	]
+	"immunities": [
+	"burning",
+	"melting"
+	],
+	"health": 35750,
+	"weapons": [
+		{
+		"name": "chrome-blaster",
+		"reload": 5,
+		"alternate": true,
+		"bullet": {
+			"type": "MissileBulletType",
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"lifetime": 120,
+			"damage": 180,
+			"lightningLength": 1,
+			"splashDamage": 110,
+			"speed": 7.5,
+			"splashDamageRadius": 20,
+			"fragBullets": 5,
+			"fragBullet": {
+				"type": "LaserBulletType",
+				"damage": 30,
+				"sideAngle": 15,
+				"sideWidth": 1,
+				"sideLength": 120,
+				"width": 10,
+				"length": 100,
+				"lifetime": 20,
+				}
+			}
+		},
+		{
+		"name": "chrome-blaster",
+		"x": 0,
+		"y": 6,
+		"reload": 8,
+		"rotate": true,
+		"shoot": {
+			"shots": 3,
+		}
+		"bullet": {
+			"type": "MissileBulletType",
+			"damage": 360,
+			"speed": 2,
+			"lifetime": 200,
+			"lightningLength": 3,
+			"incendAmount": 13,
+			"incendSpread": 20
+			"inaccuracy": 4,
+			}
+		},
+		{
+		"name": "chrome-blaster",
+		"x": 10,
+		"y": 10,
+		"reload": 1,
+		"rotate": true,
+		"shoot": {
+			"shots": 3,
+		}
+		"bullet": {
+			"type": "SapBulletType",
+			"damage": 260,
+			"lifetime": 10,
+			"width": 0.5,
+			"length": 225,
+			}
+		},
+		{
+		"name": "chrome-blaster",
+		"x": -10,
+		"y": 10,
+		"reload": 1,
+		"rotate": true,
+		"shoot": {
+			"shots": 3,
+		}
+		"bullet": {
+			"type": "SapBulletType",
+			"damage": 260,
+			"lifetime": 10,
+			"width": 0.5,
+			"length": 225,
+			}
+		}
+	]
+	"research": {
+		"parent": "darkshade-reconstructor",
+		"requirements": [
+			{ "item": "surge-alloy", "amount": 2500 },
+			{ "item": "darkshadow", "amount": 7500 },
+			{ "item": "galaxy", "amount": 5500 },
+			{ "item": "red-matter", "amount": 4000 },
+			{ "item": "titanium", "amount": 10000 }
+		],
+	},
+}

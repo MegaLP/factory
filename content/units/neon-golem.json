@@ -1,0 +1,61 @@
+{
+	"type": "mech",
+	"name": "Neon Golem",
+	"description": "It is neon without neon colors.",
+	"speed": 3.3,
+	"flying": false,
+	"health": 570,
+	"engineOffset": 5.5,
+	"range": 125,
+	"canBoost": true,
+	"boostMultiplier": 1.5,
+	"armor": 1,
+	"weapons": [
+		{
+		"name": "neon-blaster",
+		"x": 5,
+		"reload": 10,
+		"alternate": true,
+		"bullet": {
+			"type": "ArtilleryBulletType",
+			"lifetime": 30,
+			"speed": 6,
+			"collidesTiles": false,
+			"splashDamageRadius": 30,
+			"splashDamage": 20,
+			"knockback": 1.5,
+			"homingPower": 0.1,
+			"homingRange": 70,
+			"width": 15,
+			"height": 15,
+			},
+		}
+		{
+		"name": "neon-blaster",
+		"x": -5,
+		"reload": 10,
+		"alternate": true,
+		"bullet": {
+			"type": "ArtilleryBulletType",
+			"lifetime": 30,
+			"speed": 6,
+			"collidesTiles": false,
+			"splashDamageRadius": 30,
+			"splashDamage": 20,
+			"knockback": 1.5,
+			"homingPower": 0.1,
+			"homingRange": 70,
+			"width": 15,
+			"height": 15,
+			},
+		}
+	]
+	"research": {
+		"parent": "special-unit-reconstructor",
+		"requirements": [
+			{ "item": "copper", "amount": 7500 },
+			{ "item": "silicon", "amount": 3000 },
+			{ "item": "dark-matter", "amount": 1000 }
+		],
+	},
+}

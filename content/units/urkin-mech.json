@@ -1,0 +1,39 @@
+{
+	"name": "Ukin",
+	"type": "flying",
+	"description": "Against A",
+	"speed": 2.0,
+	"buildSpeed": 3.0,
+	"flying": true,
+	"health": 400,
+	"armor": 10,
+	"weapons": [
+		{
+		"name": "chrome-blaster",
+		"reload": 25,
+		"alternate": false,
+		"bullet": {
+			"type": "FlakBulletType",
+			"damage": 15,
+			"explodeRange": 10,
+			"lifetime": 50,
+			"speed": 5,
+			"ammoMultiplier": 4,
+			"splashDamageRadius": 30,
+			"splashDamage": 22,
+			"width": 8,
+			"height": 10,
+			"collidesGround": true,
+			"shrinkY": 1,
+			},
+		}
+	]
+	"research": {
+		"parent": "special-unit-reconstructor",
+		"requirements": [
+			{ "item": "silicon", "amount": 3200 },
+			{ "item": "dark-matter", "amount": 2000 },
+			{ "item": "graphite", "amount": 1000 }
+		],
+	},
+}

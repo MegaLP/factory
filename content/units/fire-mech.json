@@ -1,0 +1,30 @@
+{
+	"name": "Fire",
+	"type": "flying",
+	"description": "Watch out before you burn yourself",
+	"speed": 1.0,
+	"buildSpeed": 0.5,
+	"flying": true,
+	"health": 120,
+	"armor": 4,
+	"immunities": [
+	"burning",
+	"melting"
+	],
+	"weapons": [
+		{
+		"name": "chrome-blaster",
+		"reload": 15,
+		"alternate": false,
+		"bullet": "fireball"
+		}
+	]
+		"research": {
+		"parent": "advanced-unit-factory",
+		"requirements": [
+			{ "item": "copper", "amount": 1500 },
+			{ "item": "lead", "amount": 1000 },
+			{ "item": "graphite", "amount": 2000 }
+		],
+	},
+}

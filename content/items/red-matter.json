@@ -1,0 +1,14 @@
+{
+	"research": {
+		"parent": "dark-matter",
+		"requirements": [
+			{ "item": "dark-matter", "amount": 12500 }
+			{ "item": "plastanium", "amount": 10000 }
+			{ "item": "phase-fabric", "amount": 5000 }
+		],
+	},
+	"name": "Red Matter",
+	"description": "An upgradet version of the Dark Matter.",
+	"cost": 2.0,
+	"color": "#CC0000"
+}

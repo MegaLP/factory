@@ -1,0 +1,15 @@
+{
+	"research": {
+		"parent": "electrum",
+		"requirements": [
+			{ "item": "surge-alloy", "amount": 150000 }
+			{ "item": "copper", "amount": 1000000 }
+			{ "item": "silicon", "amount": 50000 }
+		],
+	},
+	"name": "Galaxy Dust",
+	"description": "Used to make Galaxy Material",
+	"cost": 10.0,
+	"hardness": 100,
+	"color": "#7a40d8"
+}

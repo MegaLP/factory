@@ -1,0 +1,69 @@
+{
+	"type": "flying",
+	"name": "Red Matter Killer",
+	"description": "An op enemy.",
+	"speed": 0.5,
+	"flying": true,
+	"health": 10000,
+	"armor": 20,
+	"range": 50,
+	"hitSize": 70,
+	"engineSize": 30,
+	"engineOffset": 45,
+	"weapons": [
+		{
+		"name": "red-blaster",
+		"reload": 500,
+		"inaccuracy": 0,
+		"shake": 10,
+		"alternate": true,
+		"bullet": {
+			"type": "MissileBulletType",
+			"lifetime": 100,
+			"speed": 10,
+			"splashDamageRadius": 20,
+			"splashDamage": 40,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"homingPower": 100,
+			"homingRange": 50,
+			"fragBullets": 10,
+			"damage": 300,
+			"fragBullet": {
+				"type": "FlakBulletType"
+				"explodeRange": 5,
+				"lifetime": 1,
+				"speed": 5,
+				"damage": 10,
+				"fragBullets": 10
+				"fragBullet": {
+					"type": "BombBulletType"
+					"collidesTiles": false,
+					"collides": false,
+					"keepVelocity": false,
+					"collidesAir": false,
+					"lifetime": 50,
+					"hitSound": "explosion",
+					"speed": 5,
+					"damage": 35,
+					"fragBullets": 30
+					"fragBullet": {
+						"type": "BasicBulletType",
+						"lifetime": 5,
+						"speed": 50,
+						"pierce": true,
+						"damage": 10,
+						"splashDamageRadius": 2,
+						"incendAmount": 1,
+						"incendSpread": 3,
+						"incendChance": 10,
+						"homingPower": 100,
+						"homingRange": 50,
+						"lightningLength": 100
+					}
+				}
+			}
+		}
+		}
+	]
+}

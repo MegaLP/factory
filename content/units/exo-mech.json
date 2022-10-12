@@ -1,0 +1,83 @@
+{
+	"name": "exo",
+	"type": "flying",
+	"description": "an  Explorer",
+	"speed": 25.0,
+	"drag": 3.0,
+	"engineSize": 5.0,
+	"buildSpeed": 1.5,
+	"flying": true,
+	"health": 1000,
+	"weapons": [
+		{
+		"name": "chrome-blaster",
+		"x": 5,
+		"y": 0,
+		"reload": 10,
+		"alternate": false,
+		"bullet": {
+			"type": "BasicBulletType",
+			"lifetime": 100,
+			"speed": 10,
+			"splashDamageRadius": 20,
+			"splashDamage": 40,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"homingPower": 100,
+			"homingRange": 50,
+			"damage": 30,
+			}
+		},
+		{
+		"name": "chrome-blaster",
+		"x": -5,
+		"y": 0,
+		"reload": 10,
+		"alternate": false,
+		"bullet": {
+			"type": "BasicBulletType",
+			"lifetime": 100,
+			"speed": 10,
+			"splashDamageRadius": 20,
+			"splashDamage": 40,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"homingPower": 100,
+			"homingRange": 50,
+			"damage": 30,
+			}
+		},
+		{
+		"name": "chrome-blaster",
+		"x": 0,
+		"y": -5,
+		"reload": 120,
+		"shake": 2,
+		"shoot": {
+			"shots": 8,
+		}
+		"inaccuracy": 10,
+		"alternate": true,
+		"bullet": {
+			"type": "MissileBulletType",
+			"lifetime": 100,
+			"speed": 10,
+			"splashDamageRadius": 20,
+			"splashDamage": 40,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"homingPower": 100,
+			"homingRange": 50,
+			"damage": 30,
+			}
+		}
+	]
+	"research": {
+		"parent": "special-unit-factory",
+		"requirements": [
+			{ "item": "surge-alloy", "amount": 5000 },
+			{ "item": "silicon", "amount": 3000 },
+			{ "item": "dark-matter", "amount": 2500 }
+		],
+	},
+}

@@ -1,0 +1,17 @@
+{
+	"research": {
+		"parent": "galaxy-dust",
+		"requirements": [
+			{ "item": "phase-fabric", "amount": 50000 }
+			{ "item": "silicon", "amount": 150000 }
+		],
+	},
+	"name": "Infused Galaxy Dust",
+	"description": "The dust is now in the quantum supperposition (IT IS EXTREAMLY DANGERUS).",
+	"explosiveness": 100,
+	"cost": 10.0,
+	"radioactivity": 100,
+	"flammability": 100,
+	"hardness": 100,
+	"color": "#7a40d8"
+}

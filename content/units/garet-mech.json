@@ -1,0 +1,42 @@
+{
+	"name": "Garet",
+	"type": "flying",
+	"description": "Build",
+	"speed": 2.5,
+	"buildSpeed": 14.0,
+	"flying": true,
+	"health": 300,
+	"abilities": [
+		{
+			"type": "StatusFieldAbility",
+			"effect": "overclock",
+			"duration": 500,
+			"reload": 400,
+			"range": 120
+		}
+	]
+	"immunities": [
+	"burning",
+	],
+	"weapons": [
+		{
+		"name": "chrome-blaster",
+		"reload": 5,
+		"alternate": true,
+		"bullet": {
+			"type": "LiquidBulletType",
+			"puddleSize": 12,
+			"liquid": "water"
+			"orbSize": 6
+			}
+		}
+	]
+	"research": {
+		"parent": "advanced-unit-factory",
+		"requirements": [
+			{ "item": "graphite", "amount": 1500 },
+			{ "item": "silicon", "amount": 1000 },
+			{ "item": "dark-matter", "amount": 1000 }
+		],
+	},
+}
