@@ -1,6 +1,7 @@
 {
 	"name": "Darkshade",
 	"type": "flying",
+	"bounded": false,
 	"description": "Forged by the Shadows of the dark",
 	"speed": 3.5,
 	"mineSpeed": 50.0,

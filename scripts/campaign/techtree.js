@@ -21,7 +21,7 @@ const extendcontent = (type, name) => {
 	return extend(type, name, {});
 }
 
-noderoot("Zelus", extendcontent(CoreBlock, "core-kento"), true, () => {
+noderoot("Zelus", extendcontent(CoreBlock, "core-flow"), false, () => {
 	TechTree.node(maps.M1, Seq.with(new Objectives.SectorComplete(SectorPresets.stainedMountains), new Objectives.Research(extendcontent(Wall, "dark-matter-wall")), new Objectives.Research(extendcontent(ItemTurret, "dark-matter-turret"))), () => {
 		TechTree.node(maps.M2, Seq.with(new Objectives.SectorComplete(maps.M1), new Objectives.Research(extendcontent(UnitFactory, "advanced-unit-factory"))), () => {
 			TechTree.node(maps.M3, Seq.with(new Objectives.SectorComplete(maps.M2), new Objectives.Research(extendcontent(GenericCrafter, "rocket-forge"))), () => {

@@ -1,0 +1,33 @@
+{
+	"type": "HeatCrafter",
+	"name": "Dark Matter Forge Erekir",
+	"description": "Sience has found out how to produce dark matter on Erekir.",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "dark-matter", "amount": 1},
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"heatRequirement": 8,
+	"maxEfficiency": 6,
+	"overheatScale": 0.95,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 4.5,
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 3 },
+				{ "item": "tungsten", "amount": 1 },
+				{ "item": "graphite", "amount": 2 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 250 },
+		{ "item": "tungsten", "amount": 70 },
+		{ "item": "graphite", "amount": 175 }
+	],
+	"category": "crafting",
+	"research": "dark-matter-forge",
+}

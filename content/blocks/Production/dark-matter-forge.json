@@ -26,5 +26,5 @@
 		{ "item": "copper", "amount": 200 }
 	],
 	"category": "crafting",
-	"research": "core-kento",
+	"research": "core-flow",
 }

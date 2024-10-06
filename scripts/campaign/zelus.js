@@ -24,8 +24,8 @@ const zelus = new JavaAdapter(Planet, {
         this.super$load();
     }
 }, "Zelus", Planets.sun, 1);
-setPlanet(zelus, 4);
-zelus.generator = asteroidGen.asteroidGen;
+setPlanet(zelus, 2);
+zelus.generator = zelusGenerator.zelusGen;
 zelus.atmosphereColor = Color.valueOf("f0e4a860");
 zelus.accessible = true;
 zelus.orbitRadius = 12;
@@ -34,6 +34,8 @@ zelus.atmosphereRadOut = 0.4;
 zelus.startSector = 1;
 zelus.localizedName = "Zelus";
 zelus.alwaysUnlocked = true;
+zelus.hiddenItems.addAll().removeAll(Items.serpuloItems);
+zelus.hiddenItems.addAll().removeAll(Items.erekirItems);
 
 
 const asteroidbelt = new JavaAdapter(Planet, {
@@ -64,7 +66,8 @@ asteroidbelt.atmosphereRadOut = 0;
 asteroidbelt.startSector = 1;
 asteroidbelt.localizedName = "Asteroid Belt";
 asteroidbelt.alwaysUnlocked = true;
-
+asteroidbelt.hiddenItems.addAll().removeAll(Items.serpuloItems);
+asteroidbelt.hiddenItems.addAll().removeAll(Items.erekirItems);
 
 
 module.exports = {

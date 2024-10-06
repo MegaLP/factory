@@ -9,6 +9,7 @@
 	"range": 1000,
 	"inaccuracy": 1,
 	"liquidCapacity": 180,
+	"maxAmmo": 120,
 	"shootCone": 1,
 	"reload": 160,
 	"ammoTypes": {

@@ -12,7 +12,7 @@
 	"shootDuration": 40,
 	"consumes": {
 		"power": 1,
-		"liquid":{"liquid": "water", "amount":0.1}
+		"liquid":{"liquid": "water", "amount":0.1, "booster": true, "optional": true}
 	},
 	"shootSound": "laser",
 	"shootType": {

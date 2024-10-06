@@ -1,0 +1,16 @@
+{
+	"name": "Electrum Pump",
+	"description": "A very strange pump.",
+	"type": "Pump",
+	"size": 3,
+	"pumpAmount": 0.5,
+	"liquidCapacity": 500,
+	"consumes": {
+		"power": 0.1,
+	},
+	"requirements": [
+		{ "item": "electrum", "amount": 8 }
+	],
+	"category": "liquid",
+	"research": "dark-matter-pump"
+}

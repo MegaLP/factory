@@ -1,0 +1,83 @@
+{
+	"name": "test",
+	"type": "flying",
+	"description": "DO NOT USE",
+	"speed": 25.0,
+	"drag": 3.0,
+	"engineSize": 5.0,
+	"armor": 1000000000000000000000,
+	"ammoCapacity": 1000000000000000000000,
+	"buildSpeed": 1000000000000000000000,
+	"itemCapacity": 1000000000000000000000,
+	"mineSpeed": 1000000000000000000000,
+	"mineTier": 1000000000000000000000,
+	"buildSpeed": 1000000000000000000000,
+	"flying": true,
+	"internal": true,
+	"hidden": true,
+	"health": 1000000000000000000000,
+	"weapons": [
+		{
+		"name": "chrome-blaster",
+		"x": 5,
+		"y": 0,
+		"reload": 10,
+		"alternate": false,
+		"bullet": {
+			"type": "BasicBulletType",
+			"lifetime": 100,
+			"speed": 10,
+			"splashDamageRadius": 20,
+			"splashDamage": 40,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"homingPower": 100,
+			"homingRange": 50,
+			"damage": 3000000000000000000000000000000,
+			}
+		},
+		{
+		"name": "chrome-blaster",
+		"x": -5,
+		"y": 0,
+		"reload": 10,
+		"alternate": false,
+		"bullet": {
+			"type": "BasicBulletType",
+			"lifetime": 100,
+			"speed": 10,
+			"splashDamageRadius": 20,
+			"splashDamage": 40,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"homingPower": 100,
+			"homingRange": 50,
+			"damage": 3000000000000000000000000000000,
+			}
+		},
+		{
+		"name": "chrome-blaster",
+		"x": 0,
+		"y": -5,
+		"reload": 120,
+		"shake": 2,
+		"shoot": {
+			"shots": 8,
+		}
+		"inaccuracy": 10,
+		"alternate": true,
+		"bullet": {
+			"type": "MissileBulletType",
+			"lifetime": 100,
+			"speed": 10,
+			"splashDamageRadius": 20,
+			"splashDamage": 40,
+			"frontColor": "ffff00",
+			"backColor": "00ffff",
+			"homingPower": 100,
+			"homingRange": 50,
+			"damage": 3000000000000000000000000000000,
+			}
+		}
+	]
+}

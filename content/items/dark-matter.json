@@ -1,6 +1,6 @@
 {
 	"research": {
-		"parent": "core-kento",
+		"parent": "core-flow",
 		"requirements": [
 			{ "item": "copper", "amount": 15000 }
 			{ "item": "lead", "amount": 10000 }

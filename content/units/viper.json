@@ -1,0 +1,309 @@
+{
+	"type": "flying",
+	"name": "F-16 Viper",
+	"description": "an abbsolute WAR MACHINE",
+	"speed": 16,
+	"drag": 0.01,
+	"flying": true,
+	"ammoCapacity": 4,
+	"itemCapacity": 4,
+	"health": 4000,
+	"armor": 15,
+	"range": 50,
+	"hitSize": 40,
+	"engineSize": 8,
+	"trailLength": 3,
+	"rotateSpeed": 1.25,
+	"baseRotateSpeed": 1.25,
+	"strafePenalty": 1,
+	"canAttack": true,
+	"omniMovement": false,
+	"bounded": false,
+	"logicControllable": false,
+	"fogRadius": 500,
+	"engineOffset": 25,
+	"weapons": [
+		{
+		"name": "mg",
+		"reload": 1,
+		"inaccuracy": 0,
+		"alternate": false,
+		"mirror": true,
+		"useAmmo": false,
+		"y": 5,
+		"x": 2,
+		"rotationLimit": 3,
+		"ignoreRotation": true,
+		"shootCone": 360,
+		"minShootVelocity": 0.7,
+		"bullet": {
+			"type": "BasicBulletType",
+			"lifetime": 60,
+			"speed": 16,
+			"damage": 60,
+			"width": 3,
+			"height": 8
+			}
+		},
+		{
+		"name": "rocket1",
+		"reload": 500,
+		"inaccuracy": 0,
+		"shake": 1,
+		"y": 0,
+		"x": 20,
+		"rotationLimit": 3,
+		"ignoreRotation": true,
+		"mirror": false,
+		"minShootVelocity": 0.7,
+		"minWarmup": 0.1,
+		"shootWarmupSpeed": 0.03,
+		"ejectEffect": {
+				"type": "multiEffect",
+				"effects": [
+					{
+						"type": "WaveEffect",
+						"colorFrom": "#242424",
+						"colorTo": "#4f4d4d",
+					},
+					{
+						"type": "ParticleEffect"
+						"sizeFrom": 4,
+						"strokeFrom": 4,
+						"lenFrom": 6,
+					}
+				]
+			},
+		"bullet": {
+			"type": "MissileBulletType",
+			"lifetime": 40,
+			"speed": 10,
+			"splashDamageRadius": 80,
+			"splashDamage": 800,
+			"fragBullets": 10,
+			"damage": 1600,
+			"sprite": "factory-vipor-missile",
+			"fragRandomSpread": 180,
+			"fragBullets": 50,
+			"trailLength": 5,
+			"splashDamagePierce": true,
+			"incendAmount": 28,
+			"suppressionRange": 40,
+			"fragBullet": {
+			"type": "BasicBulletType",
+				"lifetime": 60,
+				"speed": 16,
+				"damage": 30,
+				"width": 3,
+				"height": 8
+			}
+			"smokeEffect": {
+				"type": "multiEffect",
+					"effects": [
+						{
+							"type": "ParticleEffect"
+							"sizeFrom": 4,
+							"strokeFrom": 4,
+							"lenFrom": 6,
+						}
+					]
+				},
+			}
+		},
+		{
+		"name": "rocket2",
+		"reload": 500,
+		"inaccuracy": 0,
+		"shake": 1,
+		"y": 0,
+		"x": 20,
+		"rotationLimit": 3,
+		"ignoreRotation": true,
+		"mirror": false,
+		"minShootVelocity": 0.7,
+		"minWarmup": 0.5,
+		"shootWarmupSpeed": 0.03,
+		"ejectEffect": {
+				"type": "multiEffect",
+				"effects": [
+					{
+						"type": "WaveEffect",
+						"colorFrom": "#242424",
+						"colorTo": "#4f4d4d",
+					},
+					{
+						"type": "ParticleEffect"
+						"sizeFrom": 4,
+						"strokeFrom": 4,
+						"lenFrom": 6,
+					}
+				]
+			},
+		"bullet": {
+			"type": "MissileBulletType",
+			"lifetime": 40,
+			"speed": 10,
+			"splashDamageRadius": 80,
+			"splashDamage": 800,
+			"fragBullets": 10,
+			"damage": 1600,
+			"sprite": "factory-vipor-missile",
+			"fragRandomSpread": 180,
+			"fragBullets": 50,
+			"trailLength": 5,
+			"splashDamagePierce": true,
+			"incendAmount": 28,
+			"suppressionRange": 40,
+			"fragBullet": {
+			"type": "BasicBulletType",
+				"lifetime": 60,
+				"speed": 16,
+				"damage": 30,
+				"width": 3,
+				"height": 8
+			}
+			"smokeEffect": {
+				"type": "multiEffect",
+					"effects": [
+						{
+							"type": "ParticleEffect"
+							"sizeFrom": 4,
+							"strokeFrom": 4,
+							"lenFrom": 6,
+						}
+					]
+				},
+			}
+		},
+		{
+		"name": "rocket3",
+		"reload": 500,
+		"inaccuracy": 0,
+		"shake": 1,
+		"y": 0,
+		"x": 20,
+		"rotationLimit": 3,
+		"ignoreRotation": true,
+		"mirror": false,
+		"minShootVelocity": 0.7,
+		"minWarmup": 0.8,
+		"shootWarmupSpeed": 0.03,
+		"ejectEffect": {
+				"type": "multiEffect",
+				"effects": [
+					{
+						"type": "WaveEffect",
+						"colorFrom": "#242424",
+						"colorTo": "#4f4d4d",
+					},
+					{
+						"type": "ParticleEffect"
+						"sizeFrom": 4,
+						"strokeFrom": 4,
+						"lenFrom": 6,
+					}
+				]
+			},
+		"bullet": {
+			"type": "MissileBulletType",
+			"lifetime": 40,
+			"speed": 10,
+			"splashDamageRadius": 80,
+			"splashDamage": 800,
+			"fragBullets": 10,
+			"damage": 1600,
+			"sprite": "factory-vipor-missile",
+			"fragRandomSpread": 180,
+			"fragBullets": 50,
+			"trailLength": 5,
+			"splashDamagePierce": true,
+			"incendAmount": 28,
+			"suppressionRange": 40,
+			"fragBullet": {
+			"type": "BasicBulletType",
+				"lifetime": 60,
+				"speed": 16,
+				"damage": 30,
+				"width": 3,
+				"height": 8
+			}
+			"smokeEffect": {
+				"type": "multiEffect",
+					"effects": [
+						{
+							"type": "ParticleEffect"
+							"sizeFrom": 4,
+							"strokeFrom": 4,
+							"lenFrom": 6,
+						}
+					]
+				},
+			}
+		},
+		{
+		"name": "rocket4",
+		"reload": 500,
+		"inaccuracy": 0,
+		"shake": 1,
+		"y": 0,
+		"x": 20,
+		"rotationLimit": 3,
+		"ignoreRotation": true,
+		"mirror": false,
+		"minShootVelocity": 0.7,
+		"minWarmup": 0.9,
+		"shootWarmupSpeed": 0.03,
+		"ejectEffect": {
+				"type": "multiEffect",
+				"effects": [
+					{
+						"type": "WaveEffect",
+						"colorFrom": "#242424",
+						"colorTo": "#4f4d4d",
+					},
+					{
+						"type": "ParticleEffect"
+						"sizeFrom": 4,
+						"strokeFrom": 4,
+						"lenFrom": 6,
+					}
+				]
+			},
+		"bullet": {
+			"type": "MissileBulletType",
+			"lifetime": 40,
+			"speed": 10,
+			"splashDamageRadius": 80,
+			"splashDamage": 800,
+			"fragBullets": 10,
+			"damage": 1600,
+			"sprite": "factory-vipor-missile",
+			"fragRandomSpread": 180,
+			"fragBullets": 50,
+			"trailLength": 5,
+			"splashDamagePierce": true,
+			"incendAmount": 28,
+			"suppressionRange": 40,
+			"fragBullet": {
+			"type": "BasicBulletType",
+				"lifetime": 60,
+				"speed": 16,
+				"damage": 30,
+				"width": 3,
+				"height": 8
+			}
+			"smokeEffect": {
+				"type": "multiEffect",
+					"effects": [
+						{
+							"type": "ParticleEffect"
+							"sizeFrom": 4,
+							"strokeFrom": 4,
+							"lenFrom": 6,
+						}
+					]
+				},
+			}
+		}
+	]
+}

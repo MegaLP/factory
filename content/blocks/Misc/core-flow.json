@@ -1,0 +1,17 @@
+{
+	"name": "Core Flow",
+	"description": "Another Core",
+	"itemCapacity": 2250,
+	"health": 800,
+	"size": 3,
+	"unitCapModifier": 5,
+	"researchCostMultiplier": 0.1,
+	"unitType": "garet-mech",
+	"requirements": [
+		{ "item": "copper", "amount": 840 },
+		{ "item": "lead", "amount": 580 },
+		{ "item": "silicon", "amount": 120 },
+		{ "item": "dark-matter", "amount": 100 }
+	],
+	"category": "effect"
+}

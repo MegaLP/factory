@@ -22,6 +22,7 @@
 			"weaveScale": 2,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
+			"rangeChange": -40,
 			"ammoMultiplier": 4,
 			"collides":true,
 			},
@@ -58,6 +59,7 @@
 			"weaveScale": 2,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
+			"rangeChange": 50,
 			"ammoMultiplier": 12,
 			"collides":true,
 			},
@@ -70,6 +72,7 @@
 			"weaveScale": 2,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
+			"rangeChange": 80,
 			"ammoMultiplier": 20,
 			"collides":true,
 			}

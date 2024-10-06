@@ -6,7 +6,7 @@
 	"size": 2,
 	"outputLiquid": {
 		"liquid": "molten-galaxy",
-		"amount": 7.8
+		"amount": 0.78
 	},
 	"hasPower": true,
 	"hasLiquids": true,

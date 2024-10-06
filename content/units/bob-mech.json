@@ -1,6 +1,6 @@
 {
-	"type": "mech",
 	"name": "Bob",
+	"type": "mech",
 	"description": "Watch out before you burn yourself",
 	"speed": 0.7,
 	"buildSpeed": 2.0,

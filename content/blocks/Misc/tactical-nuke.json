@@ -1,30 +1,44 @@
 {
 	"name": "Tactical Nuke",
-	"description": "Set the coordinates and FIRE",
+	"description": "Set the coordinates and FIRE. [red]WARNING it will destroy own tiles!",
 	"hasItems": true,
 	"solid": true,
 	"configurable": true,
-	"attacks": true,
 	"breakable": true,
 	"commandable": false,
 	"destructible": true,
-	"inEditor": false,
 	"canOverdrive": false,
-	"buildVisibility": "hidden",
-	"itemCapacity": 100000000000000000000000000,
-	"health": 800,
+	"inEditor": true,
+	"rebuildable": true,
+	"itemCapacity": 200,
+	"health": 8000,
 	"size": 4,
-	"hasShadow": false,
+	"category": "turret",
 	"consumes": {
-		"power": 9999999999999999999999999999999999999999999999999999999999999999999999,
+		"power": 2000,
 		"items": {
 			"items": [
-				{ "item": "rocket", "amount": 10000000000000000000000000 }
+				{ "item": "rocket", "amount": 100 }
 			]
 		},
 	},
+	"research": {
+		"parent": "A1",
+	}
 	"requirements": [
-		{ "item": "galaxy", "amount": 999999999999999999999999999999999999999999999999999999999999999999999 }
+		{ "item": "copper", "amount": 5000 },
+		{ "item": "lead", "amount": 5000 },
+		{ "item": "dark-matter", "amount": 1000 },
+		{ "item": "silicon", "amount": 40000 },
+		{ "item": "titanium", "amount": 10000 },
+		{ "item": "phase-fabric", "amount": 600 },
+		{ "item": "plastanium", "amount": 2200 },
+		{ "item": "surge-alloy", "amount": 420 },
+		{ "item": "red-matter", "amount": 350 }
+		{ "item": "electrum", "amount": 100 },
+		{ "item": "metaglass", "amount": 7500 },
+		{ "item": "tungsten", "amount": 3500 },
+		{ "item": "darkshadow", "amount": 5000 },
+		{ "item": "galaxy", "amount": 200 }
 	],
-	"category": "turret",
 }

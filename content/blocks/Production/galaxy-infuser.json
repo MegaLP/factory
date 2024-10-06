@@ -3,7 +3,7 @@
 	"name": "Galaxy infuser",
 	"description": "Produces Infused Galaxy Dust.",
 	"liquidCapacity": 0,
-	"outputItem": {"item": "infused-galaxy-dust", "amount": 2},
+	"outputItem": {"item": "infused-galaxy-dust", "amount": 1},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": false,
@@ -14,7 +14,7 @@
 		"power": 145.0,
 		"items": {
 			"items": [
-				{ "item": "galaxy-dust", "amount": 1 }
+				{ "item": "galaxy-dust", "amount": 2 }
 			]
 		},
 	},

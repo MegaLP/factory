@@ -263,7 +263,7 @@
 			{ "item": "phase-fabric", "amount": 1500 },
 			{ "item": "metaglass", "amount": 7500 },
 			{ "item": "silicon", "amount": 1000000 },
-			{ "item": "titanium", "amount": 200000 },
+			{ "item": "titanium", "amount": 200000 }
 		],
 	},
 }

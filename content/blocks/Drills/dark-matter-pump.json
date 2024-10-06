@@ -1,0 +1,15 @@
+{
+	"name": "Dark Matter Pump",
+	"description": "A very strange pump.",
+	"type": "Pump",
+	"size": 2,
+	"pumpAmount": 0.18,
+	"liquidCapacity": 40,
+	"requirements": [
+		{ "item": "dark-matter", "amount": 24 },
+		{ "item": "copper", "amount": 40 },
+		{ "item": "metaglass", "amount": 60 }
+	],
+	"category": "liquid",
+	"research": "core-flow"
+}

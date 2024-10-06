@@ -497,12 +497,7 @@
     },
     "consumes": {
 	"power": 25,
-	"liquid": {
-		"liquid": "liquid-lava",
-		"optional": true,
-		"update": false,
-		"amount": 0.2
-	},
+	"liquid": {"liquid": "liquid-lava", "optional": true, "update": false, "amount": 0.2, "booster": true},
 	},
    "requirements": [
 		{ "item": "silicon", "amount": 300 },

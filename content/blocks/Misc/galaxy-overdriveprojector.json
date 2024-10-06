@@ -18,7 +18,7 @@
 		},
 		"liquid": {
 			"liquid": "molten-red-matter", "amount":0.4, 
-			"booster": true,
+			"booster": false,
 			"optional": false
 		}
 	},

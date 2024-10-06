@@ -1,4 +1,5 @@
 {
+	"type": "CoreBlock"
 	"name": "Core Kento",
 	"description": "Another Core",
 	"itemCapacity": 50000,
@@ -8,11 +9,10 @@
 	"researchCostMultiplier": 0.1,
 	"unitType": "jade-mech",
 	"requirements": [
-		{ 
-		"item": "silicon", "amount": 14000,
-		"item": "dark-matter", "amount": 8000,
-		"item": "electrum", "amount": 5500,
-		}
+		{ "item": "silicon", "amount": 14000 },
+		{ "item": "dark-matter", "amount": 8000 },
+		{ "item": "electrum", "amount": 5500 }
 	],
-	"category": "effect"
+	"category": "effect",
+	"research": "core-flow"
 }

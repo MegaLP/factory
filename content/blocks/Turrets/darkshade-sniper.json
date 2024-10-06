@@ -9,8 +9,9 @@
 	"range": 1600,
 	"inaccuracy": 1,
 	"liquidCapacity":180,
+	"maxAmmo": 50,
 	"consumes":{
-		"liquid":{"liquid": "molten-red-matter", "amount":0.4, "booster":true}
+		"liquid":{"liquid": "molten-red-matter", "amount":0.4, "booster":true, "optional": true}
 		},
 	"ammoTypes": {
 		"darkshadow": {

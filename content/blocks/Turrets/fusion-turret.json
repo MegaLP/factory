@@ -3,7 +3,7 @@
 	"name": "Fusion Turret",
 	"size": 5,
 	"health": 3880,
-	"reload": 300,
+	"reload": 250,
 	"range": 300,
 	"heatColor": "FFFFFFF ",
 	"targetAir" : true, 

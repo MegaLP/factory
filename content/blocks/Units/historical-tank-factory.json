@@ -1,5 +1,4 @@
 {
-	"type": "UnitAssembler",
 	"size": 16,
 	"dronesCreated": 8,
 	"droneConstructTime": 500,
@@ -7,6 +6,10 @@
 	"health": 200,
 	"hasShadow": false,
 	"drawCracks": false,
+	"acceptsItems": true,
+	"hasItems": true,
+	"itemCapacity": 200,
+	"configurable": true,
 	"consumes": {
 		"power": 7.5,
 	},

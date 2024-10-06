@@ -11,5 +11,5 @@
 		{ "item": "red-matter", "amount": 35 }
 	],
 	"category": "power",
-	"research": "core-kento"
+	"research": "red-matter-power-node"
 }

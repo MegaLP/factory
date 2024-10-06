@@ -18,8 +18,12 @@ const zelusGen = extend(PlanetGenerator, {
     },
 
     genTile(position, tile){
-        tile.floor = this.getBlock(position);
-        tile.block = tile.floor.asFloor().wall;
+		tile.floor = this.getBlock(position);
+		tile.block = tile.floor.asFloor().wall;
+		
+		/*if(this.rid.getValue(position.x, position.y, position.z, 22) > 0.32){
+			tile.block = Blocks.air;
+        };*/
     },
 
     getBlock(position){
@@ -61,7 +65,7 @@ const zelusGen = extend(PlanetGenerator, {
             var position = this.sector.rect.project(x / tiles.width, y / tiles.height);
 
             this.genTile(position, gen);
-            tiles.set(x, y, new Tile(x, y, gen.floor, gen.overlay, gen.block));
+			tiles.set(x, y, new Tile(x, y, gen.floor, gen.overlay, gen.block));
         });
         
         const Room = {
@@ -113,7 +117,7 @@ const zelusGen = extend(PlanetGenerator, {
 
         var spawn = null;
         var enemies = new Seq();
-        var enemySpawns = rand.random(1, Math.max(Mathf.floor(this.sector.threat ^ 40), 1));
+        var enemySpawns = rand.random(1, Math.max(Mathf.floor(this.sector.threat * 4), 1));
         
         var offset = rand.nextInt(360);
         var length = this.width / 2.55 - rand.random(13, 23);
@@ -168,11 +172,16 @@ const zelusGen = extend(PlanetGenerator, {
 
         this.inverseFloodFill(this.tiles.getn(spawn.x, spawn.y));
 		
-        var ores = Seq.with(Vars.content.getByName(ContentType.block, "oreCopper"),
-			Blocks.oreScrap//,
-			/*Vars.content.getByName(ContentType.block, "oreCopper")*/);
+        var ores = Seq.with(Blocks.oreCopper, Blocks.oreLead, Blocks.oreCoal, Blocks.oreTitanium, Blocks.oreThorium, Vars.content.getByName(ContentType.block, "factory-ore-darkshadow"));
         var poles = Math.abs(this.sector.tile.v.y);
+		var nmag = 0.5;
+        var scl = 1;
+        var addscl = 1.3;
 
+        if(rand.chance(0.25)){
+            ores.add(Blocks.oreScrap);
+        };
+		
         var frequencies = new FloatSeq();
         for(var i = 0; i < ores.size; i++){
             frequencies.add(rand.random(-0.1, 0.01) - i * 0.01 + poles * 0.04);
@@ -211,7 +220,7 @@ const zelusGen = extend(PlanetGenerator, {
 
             if(this.floor != null && this.floor != Blocks.basalt && this.floor != Blocks.basalt && this.floor.asFloor().hasSurface()){
                 var noise = this.noiseOct(x + 782, y, 5, 0.75, 260);
-                if(noise > 0.82){
+                if(noise > 0.72){
                     this.floor = noise > 0.88 ? Blocks.water : (this.floor == Blocks.darksand ? Blocks.magmarock : Blocks.hotrock);
                     this.ore = Blocks.air;
                 }else if(noise > 0.67){
@@ -234,7 +243,7 @@ const zelusGen = extend(PlanetGenerator, {
         var state = Vars.state;
 
         if(this.sector.hasEnemyBase()){
-            this.basegen.generate(tiles, enemies.map(r => this.tiles.getn(r.x, r.y)), this.tiles.get(spawn.x, spawn.y), state.rules.waveTeam, this.sector, difficulty*15);
+            this.basegen.generate(tiles, enemies.map(r => this.tiles.getn(r.x, r.y)), this.tiles.get(spawn.x, spawn.y), state.rules.waveTeam, this.sector, difficulty);
 
             state.rules.attackMode = this.sector.info.attack = true;
         }else{
@@ -243,7 +252,7 @@ const zelusGen = extend(PlanetGenerator, {
 
         var waveTimeDec = 0.4;
 
-        state.rules.waveSpacing = Mathf.lerp(60 * 65 * 2, 60 * 60 * 1, Math.floor(Math.max(difficulty - waveTimeDec, 0) / 0.8))*3;
+        state.rules.waveSpacing = Mathf.lerp(60 * 65 * 2, 60 * 60 * 1, Math.floor(Math.max(difficulty - waveTimeDec, 0) / 0.8));
         state.rules.waves = this.sector.info.waves = true;
         state.rules.enemyCoreBuildRadius = 480;
 
@@ -273,13 +282,11 @@ zelusGen.arr = [
         [Blocks.basalt, Blocks.basalt, Blocks.basalt, Blocks.dirt, Blocks.basalt, Blocks.dirt, Blocks.iceSnow, Blocks.snow, Blocks.ice, Blocks.ice, Blocks.ice, Blocks.ice, Blocks.ice],
         [Blocks.basalt, Blocks.basalt, Blocks.snow, Blocks.ice, Blocks.iceSnow, Blocks.snow, Blocks.snow, Blocks.snow, Blocks.ice, Blocks.ice, Blocks.ice, Blocks.ice, Blocks.ice]
         ];
+//zelusGen.rid = new Packages.arc.util.noise.RidgedPerlin(1, 2);
 zelusGen.basegen = new BaseGenerator();
 zelusGen.scl = 5;
 zelusGen.waterOffset = 0.07;
 zelusGen.water = 2 / zelusGen.arr[0].length;
-Events.run(ClientLoadEvent, () => {
-
-})
 
 module.exports = {
 	zelusGen: zelusGen

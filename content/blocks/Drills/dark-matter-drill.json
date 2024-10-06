@@ -1,0 +1,24 @@
+{
+	"name": "Dark Matter Drill",
+	"description": "A very strange drill.",
+	"type": "Drill",
+	"size": 2,
+	"tier": 4,
+	"drillTime": 320,
+	"liquidCapacity": 50,
+	"consumes": {
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.07,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "dark-matter", "amount": 28 },
+		{ "item": "copper", "amount": 14 },
+		{ "item": "silicon", "amount": 6 }
+	],
+	"category": "production",
+	"research": "core-flow"
+}
