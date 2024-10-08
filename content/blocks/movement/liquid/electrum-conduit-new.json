@@ -1,0 +1,13 @@
+{
+	"type": "Conduit",
+	"name": "Electrum conduit",
+	"description": "It uses electrum.",
+	"requirements": [
+		{"item": "electrum", "amount": 1},
+		{"item": "metaglass", "amount": 4}
+	],
+	"category": "liquid",
+	"liquidCapacity": 250,
+	"health": 1200,
+	"research": "red-matter-conduit"
+}

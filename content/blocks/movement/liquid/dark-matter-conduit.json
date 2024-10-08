@@ -1,0 +1,13 @@
+{
+	"type": "Conduit",
+	"name": "Dark Matter conduit",
+	"description": "It uses dark energy.",
+	"requirements": [
+		{"item": "dark-matter", "amount": 1},
+		{"item": "metaglass", "amount": 4}
+	],
+	"category": "liquid",
+	"liquidCapacity": 25,
+	"health": 120,
+	"research": "core-flow"
+}

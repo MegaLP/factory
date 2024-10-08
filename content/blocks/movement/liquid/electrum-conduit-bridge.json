@@ -1,5 +1,6 @@
 {
-	"name": "Electrum Conduit",
+	"type": "LiquidBridge",
+	"name": "Electrum bridge conduit",
 	"description": "Long Conduit.",
 	"hasPower": false,
 	"requirements": [
@@ -7,12 +8,13 @@
 		{"item": "red-matter", "amount": 1},
 		{"item": "dark-matter", "amount": 3},
 		{"item": "silicon", "amount": 4},
-		{"item": "plastanium", "amount": 4}
+		{"item": "plastanium", "amount": 4},
+		{"item": "metaglass", "amount": 20}
 	],
 	"category": "liquid",
 	"liquidCapacity": 100,
 	"transportTime": 1,
 	"range": 80,
 	"health": 950,
-	"research": "electrum-conveyor"
+	"research": "electrum-conduit-new"
 }

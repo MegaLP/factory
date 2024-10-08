@@ -1,0 +1,13 @@
+{
+	"type": "LiquidJunction",
+	"name": "Dark Matter Liquid Junction",
+	"description": "Better Junction.",
+	"requirements": [
+		{"item": "dark-matter", "amount": 3},
+		{"item": "metaglass", "amount": 12}
+	],
+	"category": "liquid",
+	"liquidCapacity": 50,
+	"health": 140,
+	"research": "dark-matter-conduit"
+}

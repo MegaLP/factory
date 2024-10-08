@@ -1,3 +1,5 @@
+# Factory
+
 Updated (06.10.2024)
 
 -Tiger MG shooting improved<br>
@@ -5,7 +7,7 @@ Updated (06.10.2024)
 -Some major bug fixes
 
 
-# Latest content addition:
+## Latest content addition:
 🠖Tactical nuker<br>
 🠖P-1000-Ratte tank<br>
 🠖Tiger tank<br>
@@ -13,7 +15,7 @@ Updated (06.10.2024)
 🠖Darkshade and Galaxy material
 
 
-# Content:
+## Content:
 🠖3 Maps<br>
 🠖more materials<br>
 🠖new units/enemys<br>
@@ -24,3 +26,12 @@ Updated (06.10.2024)
 And we keep updating it! This mod is a good content addition to the game, but it's also a challange! So its time to get a Pro and master this mod. Of course we would like to hear your feedback!!
 
 Thanks to Eni_YT for helping with sprites, giving me ideas and updating this section.
+
+### Steam Workshop
+https://steamcommunity.com/sharedfiles/filedetails/?id=1899036328
+
+### GitHub
+https://github.com/MegaLP/factory/
+
+### Youtube
+https://www.youtube.com/watch?v=fVnhHFsQk48

@@ -1,0 +1,13 @@
+{
+	"type": "ArmoredConduit",
+	"name": "Red Matter armored conduit",
+	"description": "it is like dark matter conduit but faster.",
+	"requirements": [
+		{"item": "red-matter", "amount": 1},
+		{"item": "metaglass", "amount": 4}
+	],
+	"category": "liquid",
+	"liquidCapacity": 25,
+	"health": 400,
+	"research": "dark-matter-conduit"
+}
